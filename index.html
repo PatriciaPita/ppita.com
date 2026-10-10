@@ -1,0 +1,1168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Patrícia Pita Ferreira</title>
+<meta name="description" content="Patrícia Pita Ferreira, MD, MPH. Public health physician and PhD candidate in responsible AI in health at the ELSA AI Lab Northern Netherlands, University Medical Center Groningen.">
+<meta name="author" content="Patrícia Pita Ferreira">
+<link rel="canonical" href="https://ppita.com/">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Patrícia Pita Ferreira">
+<meta property="og:description" content="Patrícia Pita Ferreira, MD, MPH. Public health physician and PhD candidate in responsible AI in health at the ELSA AI Lab Northern Netherlands, University Medical Center Groningen.">
+<meta property="og:url" content="https://ppita.com/">
+<meta property="og:image" content="https://ppita.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="pt_PT">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Patrícia Pita Ferreira",
+  "honorificSuffix": "MD, MPH",
+  "jobTitle": "PhD candidate in responsible AI in health",
+  "affiliation": {"@type": "Organization", "name": "University Medical Center Groningen"},
+  "url": "https://ppita.com/",
+  "image": "https://ppita.com/assets/patricia.jpg",
+  "sameAs": [
+    "https://orcid.org/0000-0002-4460-4549",
+    "https://scholar.google.com/citations?user=n7HuaPcAAAAJ",
+    "https://www.linkedin.com/in/patricia-pita-ferreira/",
+    "https://www.researchgate.net/profile/Patricia-Pita-Ferreira",
+    "https://umcgresearch.org/w/p-pita-ferreira"
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Alegreya+Sans:wght@400;500;700&display=swap">
+<style>
+/* One light palette on plain white, used in every viewer theme on purpose */
+:root{
+  --bg:#FFFFFF; --soft:#F6F4F5;
+  --ink:#1E1B22; --muted:#5C5661; --rule:#E5E1E4;
+  --accent:#7A2E52; --accent-soft:#F4EAEF;
+  --sage:#3F6B5B; --ochre:#9A5F22;
+  --serif:"Alegreya", Georgia, "Times New Roman", serif;
+  --sans:"Alegreya Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+.l-en .pt, .l-pt .en{display:none!important}
+body{background:var(--bg); color:var(--ink); font-family:var(--sans); font-size:18.5px; line-height:1.6; padding-inline:20px; -webkit-font-smoothing:antialiased}
+a{color:var(--accent); text-underline-offset:3px; text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:2px}
+button{font-family:var(--sans)}
+.wrap{max-width:1080px; margin-inline:auto}
+.sr{position:absolute; left:-9999px}
+::selection{background:#EBD5E0; color:var(--ink)}
+html{scrollbar-color:#CEC5CB var(--bg); accent-color:var(--accent)}
+input{caret-color:var(--accent)}
+.icon{width:20px; height:20px; display:block; stroke:currentColor; fill:none; stroke-width:1.75; stroke-linecap:round; stroke-linejoin:round}
+.muted{color:var(--muted)}
+
+/* top bar */
+.top{position:sticky; top:env(safe-area-inset-top,0px); z-index:10; background:var(--bg); border-bottom:1px solid var(--rule); margin-inline:-20px; padding-inline:20px}
+.top .wrap{display:flex; align-items:center; gap:12px; padding-block:10px; position:relative}
+.mark{display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--ink); margin-right:auto; min-width:0}
+.mark img{width:32px; height:32px; border-radius:50%; object-fit:cover; object-position:50% 25%; flex:none}
+.mark b{font-family:var(--serif); font-weight:500; font-size:20px; white-space:nowrap}
+.menu{display:flex; gap:0; flex-wrap:nowrap; justify-content:flex-end; margin:0; padding:0; list-style:none}
+.menu a{display:block; color:var(--muted); text-decoration:none; font-size:16.5px; font-weight:500; padding:6px 9px; white-space:nowrap; border-bottom:2px solid transparent}
+.menu a:hover{color:var(--ink)}
+.menu a[aria-current="page"]{color:var(--ink); border-bottom-color:var(--accent)}
+.lang{display:flex; border:1px solid var(--rule); border-radius:4px; overflow:hidden; flex:none}
+.lang button{font-size:14px; font-weight:700; letter-spacing:.04em; border:0; background:transparent; color:var(--muted); padding:5px 9px; cursor:pointer}
+.lang button:hover{color:var(--ink)}
+.lang button[aria-pressed="true"]{background:var(--ink); color:var(--bg)}
+.menu-btn{display:none; color:var(--ink); background:var(--bg); border:1px solid var(--rule); border-radius:4px; padding:6px 9px; cursor:pointer}
+.menu-btn:hover{border-color:var(--ink)}
+
+/* pages */
+.page{padding-block:56px 24px}
+@media (prefers-reduced-motion:no-preference){
+  .page.enter{animation:fade .3s ease-out}
+  @keyframes fade{from{opacity:.5} to{opacity:1}}
+}
+h1{font-family:var(--serif); font-weight:500; line-height:1.08; margin:0 0 18px; text-wrap:balance}
+.page-title{font-size:clamp(40px, 5vw, 54px)}
+.page-intro{font-family:var(--serif); font-size:22px; line-height:1.45; max-width:44ch; margin:0 0 40px}
+h2{font-family:var(--serif); font-weight:500; font-size:30px; line-height:1.2; margin:0 0 14px; text-wrap:balance}
+h3{font-family:var(--serif); font-weight:500; font-size:23px; line-height:1.3; margin:0 0 6px}
+h4{font-family:var(--sans); font-weight:700; font-size:17px; margin:0 0 8px}
+p{margin:0 0 16px; max-width:68ch}
+.block{margin-top:64px}
+
+/* home */
+.hero{display:grid; grid-template-columns:1.45fr 1fr; gap:64px; align-items:end; padding-bottom:56px; border-bottom:1px solid var(--rule)}
+.hero h1{font-size:clamp(46px, 6.2vw, 68px); margin-bottom:12px}
+.role-line{font-size:19px; color:var(--muted); margin:0 0 26px; max-width:46ch}
+.lede{font-family:var(--serif); font-size:clamp(22px, 2.4vw, 26px); line-height:1.4; max-width:38ch; margin:0 0 22px}
+.chips{display:flex; flex-wrap:wrap; gap:6px 18px; padding:0; margin:0; list-style:none}
+.chips a{font-size:17px; font-weight:500}
+.portrait{margin:0; justify-self:end; width:100%; max-width:360px}
+.portrait img{display:block; width:100%; height:auto; aspect-ratio:4/5; object-fit:cover; border-radius:3px; background:var(--soft)}
+
+.home-cols{display:grid; grid-template-columns:1.25fr 1fr; gap:64px; padding-block:48px; border-bottom:1px solid var(--rule)}
+.home-cols h2{font-size:26px}
+.home-cols h2.mt{margin-top:40px}
+.dated{list-style:none; margin:0; padding:0}
+.dated li{display:grid; grid-template-columns:110px 1fr; gap:14px; padding:14px 0; border-top:1px solid var(--rule); line-height:1.45}
+.dated li:first-child{border-top:0; padding-top:0}
+.dated .d{font-weight:700; color:var(--ink); font-variant-numeric:tabular-nums; font-size:16px; padding-top:1px}
+.dated .e{display:block; color:var(--muted); font-size:16px; margin-top:2px}
+.dated .e a{color:inherit}
+.more-link{display:inline-block; margin-top:14px; font-weight:500}
+.avail{font-size:18px; color:var(--ink); max-width:52ch; margin:0 0 26px}
+.expertise{margin:0}
+.expertise > div{padding:14px 0; border-top:1px solid var(--rule)}
+.expertise > div:first-child{border-top:0; padding-top:0}
+.expertise dt{font-family:var(--serif); font-size:21px; font-weight:500; line-height:1.3; margin:0 0 4px}
+.expertise dd{margin:0; color:var(--muted); font-size:17px; line-height:1.55}
+.home-news h2{font-size:24px}
+
+.contents-wrap{padding-top:48px}
+.contents{list-style:none; margin:0; padding:0; border-top:1px solid var(--ink)}
+.contents a{display:grid; grid-template-columns:220px 1fr auto; gap:8px 28px; align-items:baseline; padding:16px 0; border-bottom:1px solid var(--rule); text-decoration:none; color:var(--ink)}
+.contents .c-name{font-family:var(--serif); font-size:25px; font-weight:500}
+.contents .c-desc{color:var(--muted); font-size:17px}
+.contents .c-meta{font-size:15px; color:var(--muted); white-space:nowrap; font-variant-numeric:tabular-nums}
+.contents a:hover .c-name{color:var(--accent); text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:4px}
+
+/* research intro + logo */
+.intro-row{display:flex; justify-content:space-between; align-items:center; gap:24px 40px; flex-wrap:wrap; margin-bottom:40px}
+.intro-row .page-intro{margin:0}
+.lab-logo{display:flex; flex-direction:column; align-items:center; gap:6px; text-decoration:none; font-size:15px; font-weight:500; margin-right:8px}
+.lab-logo img{width:170px; height:auto; display:block}
+.lab-logo:hover span{text-decoration:underline}
+
+/* thesis */
+.thesis{border-top:1px solid var(--ink); padding-top:24px}
+.thesis-h{font-size:26px; margin-bottom:10px}
+.thesis-meta{display:flex; flex-wrap:wrap; gap:6px 28px; font-size:16.5px; color:var(--muted); margin:0 0 28px}
+.thesis-meta b{color:var(--ink); font-weight:700}
+.steps{display:grid; grid-template-columns:repeat(5, minmax(0,1fr)); gap:10px; list-style:none; margin:0 0 24px; padding:0; position:relative}
+.steps::before{content:""; position:absolute; left:10%; right:10%; top:21px; height:1px; background:var(--rule)}
+.step{position:relative; display:flex; flex-direction:column; align-items:center; gap:8px; width:100%; background:none; border:0; padding:0 4px; cursor:pointer; color:var(--muted); text-align:center}
+.step .dot{width:42px; height:42px; border-radius:50%; display:grid; place-items:center; font-family:var(--serif); font-size:20px; background:var(--bg); border:1px solid var(--rule); color:var(--muted)}
+.step .role{font-size:15px; font-weight:500}
+.step .nm{font-family:var(--serif); font-size:18px; line-height:1.25; color:var(--ink)}
+.step .role, .step .nm{display:block}
+.step > span:last-child{display:flex; flex-direction:column-reverse; gap:1px}
+.step .role{color:var(--muted)}
+.step:hover .dot{border-color:var(--ink)}
+.step[aria-selected="true"] .dot{background:var(--ink); border-color:var(--ink); color:#fff}
+.step[aria-selected="true"] .nm{font-weight:700}
+.chapter{border-top:1px solid var(--rule); padding-top:26px}
+.chapter h3{font-size:28px; margin-bottom:4px}
+.status{display:inline; font-size:16px; color:var(--muted); font-weight:500; padding:0; background:none}
+.status + .status::before{content:"  /  "; color:var(--rule)}
+.chapter h3 + .status{display:inline}
+.chapter .status:last-of-type{margin-right:0}
+.chapter > p:first-of-type{margin-top:14px}
+.letters{display:flex; flex-wrap:wrap; gap:6px; margin:6px 0 12px}
+.letters button{width:46px; height:50px; font-family:var(--sans); font-weight:700; font-size:24px; color:var(--fg); background:var(--bgc); border:0; border-radius:4px; cursor:pointer; opacity:.45; position:relative}
+.letters button sup{font-size:11px; position:absolute; top:6px; right:6px}
+.letters button:hover{opacity:.8}
+.letters button[aria-pressed="true"]{opacity:1; outline:2px solid var(--ink); outline-offset:2px}
+.letter-out{border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:16px 0; margin:0 0 22px; min-height:130px}
+.letter-out h4{font-family:var(--serif); font-weight:500; font-size:23px; margin:0 0 4px; display:flex; align-items:center; gap:10px}
+.letter-out h4::before{content:""; width:12px; height:12px; border-radius:2px; background:var(--lc, var(--accent)); flex:none}
+.letter-out p{margin:0 0 8px; font-size:17px; max-width:70ch}
+.letter-out .lo-ex{color:var(--muted)}
+.letter-out .lo-ex b{color:var(--ink); font-weight:700}
+.letter-out .lo-layer{font-size:15px; font-weight:700; color:var(--muted)}
+.figs{margin:0 0 18px}
+.fig-tabs{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px}
+.fig-tab{font-weight:500; font-size:16px; color:var(--ink); background:var(--bg); border:1px solid var(--rule); border-radius:4px; padding:6px 13px; cursor:pointer}
+.fig-tab:hover{border-color:var(--ink)}
+.fig-tab[aria-expanded="true"] .closed, .fig-tab:not([aria-expanded="true"]) .opened{display:none}
+.fig-tab[aria-expanded="true"]{background:var(--ink); color:var(--bg); border-color:var(--ink)}
+.fig{margin:0; padding:8px 0 0}
+.fig img{display:block; width:100%; max-width:760px; height:auto; margin-inline:auto}
+.fig figcaption{font-size:16px; color:var(--muted); max-width:70ch; margin:10px auto 0; text-align:center}
+.fig-credit{font-size:14px; color:var(--muted); margin:8px 0 0}
+
+/* elsa way (inside chapter 5) */
+.ew{display:grid; grid-template-columns:1.2fr 1fr; gap:40px; padding-top:22px; margin-top:6px; border-top:1px solid var(--rule)}
+.ew > div > .label{display:none}
+.principles{margin:16px 0 0; padding:0; list-style:none}
+.principles li{padding:12px 0; border-top:1px solid var(--rule); font-size:17px}
+.principles b{color:var(--ink)}
+.phases{list-style:none; margin:0 0 24px; padding:0; counter-reset:none}
+.phases li{display:grid; grid-template-columns:30px 1fr; gap:12px; align-items:start; padding:12px 0; border-top:1px solid var(--rule)}
+.phases li:first-child{border-top:0}
+.phases .num{font-family:var(--serif); font-size:20px; color:var(--ochre); line-height:1.2}
+.phases b{display:block; font-weight:700; line-height:1.3}
+.phases span{font-size:16px; color:var(--muted)}
+.cta{border-top:1px solid var(--ink); padding-top:16px}
+.cta h3{font-size:22px}
+.cta p{font-size:17px; margin:0 0 10px}
+.copy-row{display:flex; align-items:center; gap:12px; flex-wrap:wrap}
+.addr{font-weight:700; user-select:all; overflow-wrap:anywhere}
+.copy{font-weight:700; font-size:15px; color:var(--accent); background:none; border:1px solid var(--rule); border-radius:4px; padding:4px 11px; cursor:pointer}
+.copy:hover{border-color:var(--accent)}
+
+/* experience: before the PhD */
+.before{display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:0 48px; margin-top:8px}
+.before article{padding:18px 0; border-top:1px solid var(--rule)}
+.before .k{display:none}
+.before p{font-size:17px; margin:6px 0 0}
+
+/* publications */
+.pub-tools{display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin:0 0 24px}
+.search{flex:1 1 240px; max-width:340px; font:17px var(--sans); color:var(--ink); background:var(--bg); border:1px solid var(--rule); border-radius:4px; padding:8px 12px}
+.search::placeholder{color:var(--muted)}
+.filters{display:flex; flex-wrap:wrap; gap:6px}
+.filters button{font-weight:500; font-size:16px; color:var(--ink); background:transparent; border:1px solid var(--rule); border-radius:4px; padding:6px 12px; cursor:pointer}
+.filters button:hover{border-color:var(--ink)}
+.filters button[aria-pressed="true"]{background:var(--ink); color:var(--bg); border-color:var(--ink)}
+.filters .n{opacity:.7; margin-left:5px; font-variant-numeric:tabular-nums}
+.pubyear{display:grid; grid-template-columns:70px 1fr; gap:20px; padding-block:20px; border-top:1px solid var(--rule)}
+.pubyear .y{font-family:var(--serif); font-size:22px; color:var(--muted); font-variant-numeric:tabular-nums}
+.pubyear ul{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:20px}
+.pub .t{display:block; font-family:var(--serif); font-size:21px; line-height:1.3; color:var(--ink); text-decoration:none}
+.pub a.t:hover{color:var(--accent); text-decoration:underline}
+.pub .au{display:block; font-size:16px; color:var(--muted); margin-top:4px; line-height:1.5}
+.pub .au b{color:var(--ink)}
+.au-toggle{font-weight:700; font-size:15px; color:var(--accent); background:none; border:0; padding:0 0 0 4px; cursor:pointer}
+.pub .v{display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 12px; font-size:16px; color:var(--muted); margin-top:4px}
+.tag{font-size:16px; font-weight:700; color:var(--ink)}
+.tag-award{color:var(--ochre)}
+.doi{font-size:15px}
+.empty{color:var(--muted); padding-block:16px}
+.pub-note{font-size:16px; color:var(--muted); margin-top:24px}
+
+/* talks */
+.speak{display:grid; grid-template-columns:1fr auto; gap:12px 32px; align-items:end; padding-bottom:28px; margin-bottom:36px; border-bottom:1px solid var(--rule)}
+.speak-h{font-size:26px; margin-bottom:8px}
+.speak p{margin:0; max-width:66ch}
+.talks{list-style:none; margin:0; padding:0}
+.talks li{display:grid; grid-template-columns:130px 1fr; gap:18px; padding-block:14px; border-top:1px solid var(--rule)}
+.talks li:first-child{border-top:0}
+.talks .when{font-size:16px; font-weight:700; color:var(--muted); font-variant-numeric:tabular-nums; padding-top:2px}
+.talks li > span:last-child{max-width:78ch}
+.talks .tt{display:block; font-family:var(--serif); font-size:20px; line-height:1.35}
+.talks .ev{display:block; font-size:16px; color:var(--muted); margin-top:3px}
+.talks .ev a{color:var(--muted)}
+.talks .ev a:hover{color:var(--accent)}
+.talks .ev .ty{color:var(--ink); font-weight:500}
+.upcoming-box{margin-bottom:40px}
+.upcoming-box h2{margin:0 0 6px!important; font-size:30px!important}
+.upcoming-box .talks li{grid-template-columns:150px 1fr}
+.year-h{font-family:var(--serif); font-size:26px; font-weight:500; margin:44px 0 6px}
+details.group{border-top:1px solid var(--rule)}
+details.group:last-of-type{border-bottom:1px solid var(--rule)}
+details.group summary{list-style:none; cursor:pointer; padding:16px 0; display:flex; align-items:center; justify-content:space-between; gap:12px}
+details.group summary::-webkit-details-marker{display:none}
+details.group summary h3{margin:0; font-size:22px}
+details.group summary:hover h3{color:var(--accent)}
+details.group summary .cnt{font-size:16px; font-weight:700; color:var(--muted); white-space:nowrap}
+details.group summary .cnt{display:flex; align-items:center; gap:6px}
+details.group summary .chev{width:18px; height:18px; color:var(--accent); transition:transform .2s cubic-bezier(.2,.7,.2,1)}
+details.group[open] summary .chev{transform:rotate(90deg)}
+details.group .inner{padding:0 0 12px}
+details.group p.gdesc{font-size:16px; color:var(--muted); margin:0 0 6px}
+
+/* experience lists */
+.two{display:grid; grid-template-columns:1fr 1fr; gap:56px}
+.log{list-style:none; margin:14px 0 0; padding:0}
+.log li{display:grid; grid-template-columns:120px 1fr; gap:16px; padding-block:14px; border-top:1px solid var(--rule)}
+.log .when{font-size:16px; color:var(--muted); font-variant-numeric:tabular-nums; font-weight:500; padding-top:2px}
+.log .what strong{display:block; font-weight:700; line-height:1.4}
+.log .what span{display:block; color:var(--muted); font-size:17px; line-height:1.5; margin-top:2px}
+.log .what a{font-size:16px; display:inline-block; margin-top:2px}
+.skills{display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:40px}
+.skills h3{font-size:22px; margin-bottom:8px}
+.tags{margin:0; padding:0; list-style:none; color:var(--ink); line-height:1.6}
+.tags li{display:inline; font-size:17px}
+.tags li:not(:last-child)::after{content:", "; color:var(--muted)}
+.simple{list-style:none; margin:10px 0 0; padding:0}
+.simple li{padding:12px 0; border-top:1px solid var(--rule); font-size:17px; line-height:1.5}
+.simple li:first-child{border-top:0}
+.simple li .yr{color:var(--muted); white-space:nowrap}
+
+/* awards */
+.awards{list-style:none; margin:0; padding:0; max-width:820px}
+.award{display:grid; grid-template-columns:120px 1fr; gap:4px 16px; padding:20px 0; border-top:1px solid var(--rule)}
+.award > *{grid-column:2}
+.award .yr{grid-column:1; grid-row:1 / span 4; font-family:var(--serif); font-size:22px; color:var(--muted)}
+.award h3{font-size:24px; margin:0}
+.award p{margin:4px 0 0; font-size:17px; color:var(--muted)}
+.award a{font-size:16px; font-weight:500}
+.medal{display:none}
+
+/* contact */
+.mail-list{list-style:none; margin:0 0 36px; padding:0; max-width:620px}
+.mail-list li{display:grid; grid-template-columns:120px 1fr auto; align-items:center; gap:12px; padding:14px 0; border-top:1px solid var(--rule)}
+.mail-list li > div{display:contents}
+.mail-list .k{font-size:16px; font-weight:500; color:var(--muted)}
+.mail-list .addr{font-size:19px}
+.profiles{display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:0 40px; max-width:620px; list-style:none; margin:0; padding:0}
+.profiles a{display:flex; justify-content:space-between; gap:12px; padding:12px 0; border-top:1px solid var(--rule); text-decoration:none}
+.profiles b{color:var(--ink); font-weight:700}
+.profiles span{font-size:16px; color:var(--muted); overflow-wrap:anywhere; text-align:right}
+.profiles a:hover b{color:var(--accent)}
+
+/* pager */
+.pager{display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-top:64px; padding-top:20px; border-top:1px solid var(--rule)}
+.pager a{display:flex; flex-direction:column; text-decoration:none; min-width:160px}
+.pager a span{font-size:14px; color:var(--muted)}
+.pager a b{font-family:var(--serif); font-weight:500; font-size:22px; color:var(--ink)}
+.pager a:hover b{color:var(--accent)}
+.pager .next{text-align:right; margin-left:auto}
+footer{border-top:1px solid var(--rule); padding-block:24px 36px; margin-top:24px; font-size:15px; color:var(--muted); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap}
+.ai-note{flex-basis:100%; margin:4px 0 0; font-size:14px; color:var(--muted); max-width:none}
+
+@media (pointer:coarse){
+  .lang button, .menu-btn, .copy, .filters button, .fig-tab{min-height:44px}
+  .lang button{min-width:44px}
+  .menu a{padding-block:12px}
+}
+@media (max-width:1100px){
+  .menu-btn{display:block}
+  .menu{display:none; position:absolute; left:-20px; right:-20px; top:100%; flex-direction:column; background:var(--bg); border-bottom:1px solid var(--rule); padding:8px 20px 16px}
+  .menu.open{display:flex}
+  .menu a{border-bottom:0; padding-left:0}
+  .menu a[aria-current="page"]{color:var(--accent)}
+}
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr; gap:28px; align-items:start}
+  .portrait{justify-self:start; max-width:280px; grid-row:1}
+  .home-cols{grid-template-columns:1fr; gap:40px}
+  .contents a{grid-template-columns:1fr auto}
+  .contents .c-desc{grid-column:1 / -1; grid-row:2}
+  .two{grid-template-columns:1fr; gap:40px}
+  .skills{grid-template-columns:1fr; gap:28px}
+  .ew{grid-template-columns:1fr; gap:28px}
+  .before{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr; gap:8px}
+  .steps::before{left:21px; right:auto; top:10px; bottom:10px; width:1px; height:auto}
+  .step{flex-direction:row; text-align:left; align-items:center; gap:14px}
+  .speak{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  body{font-size:17.5px}
+  .mark b{font-size:17px}
+  .top .wrap{gap:8px}
+  .lang button{padding:5px 8px}
+  .portrait{max-width:220px}
+  .thesis{padding-top:20px}
+  .letters button{width:auto; flex:1 1 0; min-width:0; height:44px; font-size:20px}
+  .letters{flex-wrap:nowrap; gap:4px}
+  .fig{padding:8px}
+  .lab-logo{align-items:flex-start}
+  .lab-logo img{width:130px}
+  .pubyear{grid-template-columns:1fr; gap:6px}
+  .log li, .talks li, .upcoming-box .talks li, .award{grid-template-columns:1fr; gap:2px}
+  .award .yr{grid-row:auto}
+  .award > *{grid-column:1}
+  .dated li{grid-template-columns:90px 1fr}
+  .profiles{grid-template-columns:1fr}
+  .mail-list li{grid-template-columns:1fr auto}
+  .mail-list .k{grid-column:1 / -1}
+  .pager a{min-width:0}
+}
+</style>
+</head>
+<body>
+<div id="app" class="l-en">
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#home"><img src="assets/patricia.jpg" alt=""><b>Patrícia Pita Ferreira</b></a>
+    <ul class="menu" id="menu">
+      <li><a href="#research" data-nav="research"></a></li>
+      <li><a href="#publications" data-nav="publications"></a></li>
+      <li><a href="#talks" data-nav="talks"></a></li>
+      <li><a href="#experience" data-nav="experience"></a></li>
+      <li><a href="#service" data-nav="service"></a></li>
+      <li><a href="#awards" data-nav="awards"></a></li>
+      <li><a href="#contact" data-nav="contact"></a></li>
+    </ul>
+    <div class="lang" role="group" aria-label="Language / Idioma">
+      <button type="button" id="lang-en" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" id="lang-pt" data-lang="pt" aria-pressed="false">PT</button>
+    </div>
+    <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Menu"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- ================= HOME ================= -->
+<section class="page" data-page="home">
+  <div class="hero">
+    <div>
+      <h1>Patrícia Pita Ferreira</h1>
+      <p class="role-line"><span class="en">Public health physician (MD, MPH) and PhD candidate in responsible AI in health at the University Medical Center Groningen.</span><span class="pt">Médica de Saúde Pública (MD, MPH) e doutoranda em IA responsável na saúde no University Medical Center Groningen.</span></p>
+      <p class="lede"><span class="en">My work examines how artificial intelligence in healthcare can be designed inclusively and governed responsibly, drawing on public health practice, participatory research and health policy.</span><span class="pt">O meu trabalho analisa como a inteligência artificial na saúde pode ser concebida de forma inclusiva e governada de forma responsável, com base na prática de saúde pública, na investigação participativa e nas políticas de saúde.</span></p>
+      <p class="avail"><span class="en">I will complete my PhD at the end of 2028 and am open to positions where public health, digital health and AI governance meet, particularly roles that combine research with policy advice or strategic implementation.</span><span class="pt">Concluo o doutoramento no final de 2028 e estou disponível para funções onde a saúde pública, a saúde digital e a governação da IA se cruzam, em particular as que combinam investigação com aconselhamento em políticas ou implementação estratégica.</span></p>
+      <ul class="chips">
+        <li><a href="#contact"><span class="en">Contact</span><span class="pt">Contacto</span></a></li>
+        <li><a href="https://www.linkedin.com/in/patricia-pita-ferreira/">LinkedIn</a></li>
+        <li><a href="https://scholar.google.com/citations?user=n7HuaPcAAAAJ">Google Scholar</a></li>
+        <li><a href="https://orcid.org/0000-0002-4460-4549">ORCID</a></li>
+      </ul>
+    </div>
+    <figure class="portrait">
+      <img src="assets/patricia.jpg" width="720" height="900" alt="Patrícia Pita Ferreira">
+    </figure>
+  </div>
+
+  <div class="home-cols">
+    <div>
+      <h2><span class="en">Expertise</span><span class="pt">Áreas de competência</span></h2>
+      <dl class="expertise">
+        <div><dt><span class="en">Inclusive health AI</span><span class="pt">IA inclusiva na saúde</span></dt><dd><span class="en">First author of PREFER-IT, a framework for inclusive health AI co-created with 37 experts, including patient representatives</span><span class="pt">Primeira autora do PREFER-IT, um modelo para uma IA inclusiva na saúde co-criado com 37 especialistas, incluindo representantes de doentes</span> (<a href="https://doi.org/10.1371/journal.pdig.0001096">PLOS Digital Health, 2026</a>).</dd></div>
+        <div><dt><span class="en">AI governance in healthcare</span><span class="pt">Governação da IA na saúde</span></dt><dd><span class="en">Research on AI regulatory sandboxes in European healthcare, including a simulation exercise at a university hospital and a realist review.</span><span class="pt">Investigação sobre sandboxes regulatórias de IA na saúde na Europa, incluindo um exercício de simulação num hospital universitário e uma revisão realista.</span></dd></div>
+        <div><dt><span class="en">Public health practice</span><span class="pt">Prática de saúde pública</span></dt><dd><span class="en">Public health specialist supporting Portugal's National Programme for Viral Hepatitis. I designed and led the Hep-ØN micro-elimination pilot for 22,000 adults.</span><span class="pt">Especialista em Saúde Pública na equipa do Programa Nacional para as Hepatites Virais. Desenhei e liderei o projeto-piloto de micro-eliminação Hep-ØN, dirigido a 22 000 adultos.</span></dd></div>
+        <div><dt><span class="en">Data and AI in surveillance</span><span class="pt">Dados e IA na vigilância</span></dt><dd><span class="en">Evaluation of AI for real-time classification of causes of death at the Directorate-General of Health</span><span class="pt">Avaliação de IA para a classificação em tempo real das causas de morte na Direção-Geral da Saúde</span> (<a href="https://doi.org/10.2196/40965">JMIR AI, 2023</a>).</dd></div>
+      </dl>
+    </div>
+    <div>
+      <h2><span class="en">Current positions</span><span class="pt">Funções atuais</span></h2>
+      <ul class="dated">
+        <li><span class="d"><span class="en">Since 2024</span><span class="pt">Desde 2024</span></span><span><span class="en">PhD candidate, ELSA AI Lab Northern Netherlands</span><span class="pt">Doutoranda, ELSA AI Lab Northern Netherlands</span><span class="e"><span class="en">University Medical Center Groningen. Completion expected end of 2028.</span><span class="pt">University Medical Center Groningen. Conclusão prevista no final de 2028.</span></span></span></li>
+        <li><span class="d"><span class="en">Since 2024</span><span class="pt">Desde 2024</span></span><span><span class="en">National Programme for Viral Hepatitis</span><span class="pt">Programa Nacional para as Hepatites Virais</span><span class="e"><span class="en">Directorate-General of Health, Portugal. Public health specialist supporting the Programme Director.</span><span class="pt">Direção-Geral da Saúde. Médica especialista em Saúde Pública designada para coadjuvar o Diretor do Programa.</span></span></span></li>
+        <li><span class="d"><span class="en">Since 2025</span><span class="pt">Desde 2025</span></span><span><span class="en">Co-coordinator, EUPHAnxt</span><span class="pt">Co-coordenadora, EUPHAnxt</span><span class="e"><span class="en">Early-career network of the European Public Health Association.</span><span class="pt">Rede de jovens profissionais da Associação Europeia de Saúde Pública.</span></span></span></li>
+        <li><span class="d">2026</span><span><span class="en">Mentor, EuroNet MRPH Mentorship Programme</span><span class="pt">Mentora, Programa de Mentoria da EuroNet MRPH</span><span class="e"><span class="en">European Network of Multidisciplinary Residents in Public Health.</span><span class="pt">Rede Europeia de Internos Multidisciplinares de Saúde Pública.</span></span></span></li>
+      </ul>
+      <a class="more-link" href="#experience"><span class="en">Full experience</span><span class="pt">Percurso completo</span></a>
+    </div>
+  </div>
+
+  <div class="home-cols home-news">
+    <div>
+      <h2><span class="en">Latest</span><span class="pt">Novidades</span></h2>
+      <ul class="dated">
+        <li><span class="d" data-date="2026-09-30"></span><span><span class="en">I presented The ELSA Way on the panel “Different ELSA methods for Responsible AI in action” at the</span><span class="pt">Apresentei o ELSA Way no painel “Different ELSA methods for Responsible AI in action” no</span> <a href="https://www.eur.nl/en/events/ai-hype-hope-and-humanity-festival-2026-09-30">AI Hype, Hope and Humanity Festival</a>, <span class="en">Rotterdam</span><span class="pt">Roterdão</span>.</span></li>
+        <li><span class="d" data-date="2026-09-23"></span><span><span class="en">PREFER-IT, our framework for inclusive health AI, is out in</span><span class="pt">O PREFER-IT, o nosso modelo para uma IA inclusiva na saúde, foi publicado na</span> <a href="https://doi.org/10.1371/journal.pdig.0001096">PLOS Digital Health</a>.</span></li>
+        <li><span class="d" data-date="2026-09-23"></span><span><span class="en">I co-moderated the <a href="https://eupha.org/events/do-we-have-the-skills-to-play-by-the-rules-ai-literacy-and-training-in-public-health/">EUPHA webinar on AI literacy and training in public health</a>.</span><span class="pt">Co-moderei o <a href="https://eupha.org/events/do-we-have-the-skills-to-play-by-the-rules-ai-literacy-and-training-in-public-health/">webinar da EUPHA sobre literacia e formação em IA na saúde pública</a>.</span></span></li>
+      </ul>
+    </div>
+    <div>
+      <h2><span class="en">Coming up</span><span class="pt">Em breve</span></h2>
+      <ul class="dated" id="home-upcoming"></ul>
+      <a class="more-link" href="#talks"><span class="en">All talks</span><span class="pt">Todas as comunicações</span></a>
+    </div>
+  </div>
+
+  <div class="contents-wrap">
+    <h2><span class="en">Contents</span><span class="pt">Índice</span></h2>
+    <ul class="contents">
+      <li><a href="#research"><span class="c-name" data-nav="research"></span><span class="c-desc"><span class="en">My PhD in five chapters: inclusion, participation, collaboration, regulatory sandboxes and The ELSA Way.</span><span class="pt">O doutoramento em cinco capítulos: inclusão, participação, colaboração, sandboxes regulatórias e The ELSA Way.</span></span><span class="c-meta"><span class="en">5 chapters</span><span class="pt">5 capítulos</span></span></a></li>
+      <li><a href="#publications"><span class="c-name" data-nav="publications"></span><span class="c-desc"><span class="en">Articles, abstracts and preprints, with authors and links.</span><span class="pt">Artigos, resumos e preprints, com autores e ligações.</span></span><span class="c-meta" id="toc-pubs"></span></a></li>
+      <li><a href="#talks"><span class="c-name" data-nav="talks"></span><span class="c-desc"><span class="en">Conferences, panels, webinars, lectures and invited talks.</span><span class="pt">Congressos, painéis, webinars, aulas e convites.</span></span><span class="c-meta" id="toc-talks"></span></a></li>
+      <li><a href="#experience"><span class="c-name" data-nav="experience"></span><span class="c-desc"><span class="en">Earlier projects, experience, education, skills and teaching.</span><span class="pt">Projetos anteriores, experiência, formação, competências e docência.</span></span><span class="c-meta"><span class="en">Since 2012</span><span class="pt">Desde 2012</span></span></a></li>
+      <li><a href="#service"><span class="c-name" data-nav="service"></span><span class="c-desc"><span class="en">EUPHAnxt, mentoring, organising and memberships.</span><span class="pt">EUPHAnxt, mentoria, organização de eventos e associações.</span></span><span class="c-meta" id="toc-service"></span></a></li>
+      <li><a href="#awards"><span class="c-name" data-nav="awards"></span><span class="c-desc"><span class="en">Prizes for my public health work.</span><span class="pt">Prémios pelo meu trabalho em saúde pública.</span></span><span class="c-meta" id="toc-awards"></span></a></li>
+      <li><a href="#contact"><span class="c-name" data-nav="contact"></span><span class="c-desc"><span class="en">Email and profiles.</span><span class="pt">Email e perfis.</span></span><span class="c-meta"></span></a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= RESEARCH ================= -->
+<section class="page" data-page="research" hidden>
+  <h1 class="page-title" data-nav="research"></h1>
+  <div class="intro-row">
+  <p class="page-intro"><span class="en">My PhD follows one line of argument: from the problem of inclusion in health AI, through the methods and conditions for doing ELSA research well, to the tools that govern AI and a practical solution.</span><span class="pt">O meu doutoramento segue uma linha de argumentação: do problema da inclusão na IA em saúde, passando pelos métodos e pelas condições para fazer bem investigação ELSA, até aos instrumentos que governam a IA e a uma solução prática.</span></p>
+  <a class="lab-logo" href="https://umcgresearch.org/w/elsa-nn"><img src="assets/elsa-nn-logo.png" width="360" height="210" alt="ELSA-NN, ELSA AI Lab Northern Netherlands"><span><span class="en">Visit the ELSA-NN lab page</span><span class="pt">Visitar a página do ELSA-NN</span></span></a>
+</div>
+
+  <div class="thesis">
+    <h2 class="thesis-h"><span class="en">PhD at a glance</span><span class="pt">O doutoramento num relance</span></h2>
+    <div class="thesis-meta">
+      <span><b><span class="en">Where</span><span class="pt">Onde</span></b> <a href="https://umcgresearch.org/w/elsa-nn">ELSA AI Lab Northern Netherlands</a>, UMCG, <span class="en">University of Groningen</span><span class="pt">Universidade de Groningen</span></span>
+      <span><b><span class="en">When</span><span class="pt">Quando</span></b> <span class="en">July 2024 to end of 2028</span><span class="pt">julho de 2024 ao final de 2028</span></span>
+      <span><b><span class="en">Supervisors</span><span class="pt">Orientação</span></b> Claudine Lamoth, Mirjam Plantinga, Sophie de Klerk</span>
+      <span><b><span class="en">Funding</span><span class="pt">Financiamento</span></b> NWO, <span class="en">Dutch Research Agenda</span><span class="pt">Agenda Nacional de Investigação</span> (NWA.1332.20.006)</span>
+    </div>
+
+    <div class="steps" role="tablist" aria-label="Thesis chapters">
+      <button class="step" role="tab" id="st-1" aria-controls="ch-1" aria-selected="true" style="--c:var(--accent)"><span class="dot">1</span><span><span class="role"><span class="en">The problem</span><span class="pt">O problema</span></span><span class="nm"><span class="en">Inclusion</span><span class="pt">Inclusão</span></span></span></button>
+      <button class="step" role="tab" id="st-2" aria-controls="ch-2" aria-selected="false" tabindex="-1" style="--c:var(--accent)"><span class="dot">2</span><span><span class="role"><span class="en">The methods</span><span class="pt">Os métodos</span></span><span class="nm"><span class="en">Participation</span><span class="pt">Participação</span></span></span></button>
+      <button class="step" role="tab" id="st-3" aria-controls="ch-3" aria-selected="false" tabindex="-1" style="--c:var(--sage)"><span class="dot">3</span><span><span class="role"><span class="en">The conditions</span><span class="pt">As condições</span></span><span class="nm"><span class="en">Collaboration</span><span class="pt">Colaboração</span></span></span></button>
+      <button class="step" role="tab" id="st-4" aria-controls="ch-4" aria-selected="false" tabindex="-1" style="--c:var(--sage)"><span class="dot">4</span><span><span class="role"><span class="en">The instruments</span><span class="pt">Os instrumentos</span></span><span class="nm"><span class="en">Regulatory sandboxes</span><span class="pt">Sandboxes regulatórias</span></span></span></button>
+      <button class="step" role="tab" id="st-5" aria-controls="ch-5" aria-selected="false" tabindex="-1" style="--c:var(--ochre)"><span class="dot">5</span><span><span class="role"><span class="en">The solution</span><span class="pt">A solução</span></span><span class="nm">The ELSA Way</span></span></button>
+    </div>
+
+    <div class="chapter" role="tabpanel" id="ch-1" aria-labelledby="st-1" style="--c:var(--accent)">
+      <h3>PREFER-IT: <span class="en">a co-created framework for inclusive health AI</span><span class="pt">um modelo co-criado para uma IA inclusiva na saúde</span></h3>
+      <span class="status s-done"><span class="en">Published 2026</span><span class="pt">Publicado em 2026</span></span><span class="status s-role"><span class="en">First author</span><span class="pt">Primeira autora</span></span>
+      <p><span class="en">Health AI tends to work best for the people best represented in its data and in the teams that build it. In February 2025 I led the Lorentz Center workshop “Inclusive Medical AI: Exploring Diverse Perspectives”, five days in which 37 people from healthcare, ethics, law, social sciences, AI and patient advocacy worked side by side. PREFER-IT was developed from that workshop. It maps eight clusters across the structural layers of AI (humans, data, process, system and governance) and the AI lifecycle.</span><span class="pt">A IA na saúde tende a funcionar melhor para quem está mais bem representado nos dados e nas equipas que a constroem. Em fevereiro de 2025 liderei o workshop do Lorentz Center “Inclusive Medical AI: Exploring Diverse Perspectives”: cinco dias em que 37 pessoas da saúde, ética, direito, ciências sociais, IA e associações de doentes trabalharam lado a lado. Desse workshop resultou o PREFER-IT, que organiza oito áreas ao longo das camadas estruturais da IA (pessoas, dados, processos, sistema e governação) e do ciclo de vida da IA.</span></p>
+      <p class="muted" style="margin-bottom:4px"><span class="en">Choose a letter to see each cluster:</span><span class="pt">Escolha uma letra para ver cada área:</span></p>
+      <div class="letters" id="letters" role="group" aria-label="PREFER-IT"></div>
+      <div class="letter-out" id="letter-out" aria-live="polite"></div>
+
+      <div class="figs">
+        <div class="fig-tabs" role="group" aria-label="PREFER-IT figures">
+          <button type="button" class="fig-tab" data-fig="0" aria-expanded="false"><span class="closed"><span class="en">Show the framework</span><span class="pt">Ver o modelo</span></span><span class="opened"><span class="en">Hide the framework</span><span class="pt">Esconder o modelo</span></span></button>
+          <button type="button" class="fig-tab" data-fig="2" aria-expanded="false"><span class="closed"><span class="en">Show the dual-axis map</span><span class="pt">Ver o mapa de dois eixos</span></span><span class="opened"><span class="en">Hide the dual-axis map</span><span class="pt">Esconder o mapa de dois eixos</span></span></button>
+        </div>
+        <figure class="fig" data-fig="0" hidden>
+          <img src="assets/prefer-it-framework.jpg" width="1400" height="1472" loading="lazy" alt="PREFER-IT framework: eight clusters placed on the structural layers of AI, surrounded by the five AI lifecycle phases">
+          <figcaption><span class="en">The eight clusters sit on the structural layers of AI (humans, data, process, system and governance), surrounded by the lifecycle: design, development, validation, implementation and monitoring.</span><span class="pt">As oito áreas situam-se nas camadas estruturais da IA (pessoas, dados, processos, sistema e governação), envolvidas pelo ciclo de vida: conceção, desenvolvimento, validação, implementação e monitorização.</span></figcaption>
+        </figure>
+        <figure class="fig" data-fig="2" hidden>
+          <img src="assets/prefer-it-map.jpg" width="1400" height="1543" loading="lazy" alt="Dual-axis map of PREFER-IT clusters across structural layers and lifecycle phases, with ten solutions">
+          <figcaption><span class="en">Where each cluster applies across layers and lifecycle phases, with ten concrete solutions from the workshop, from an ethics and legal toolbox to patient training and a compliance tool.</span><span class="pt">Onde cada área se aplica, por camada e fase do ciclo de vida, com dez soluções concretas do workshop, de uma caixa de ferramentas ética e legal à formação de doentes e a uma ferramenta de conformidade.</span></figcaption>
+        </figure>
+        <p class="fig-credit" id="fig-credit" hidden><span class="en">Figures from</span><span class="pt">Figuras de</span> Pita Ferreira et al., PLOS Digital Health 2026, CC BY 4.0.</p>
+      </div>
+      <a href="https://doi.org/10.1371/journal.pdig.0001096"><span class="en">Read the paper in PLOS Digital Health</span><span class="pt">Ler o artigo na PLOS Digital Health</span></a>
+    </div>
+    <div class="chapter" role="tabpanel" id="ch-2" aria-labelledby="st-2" style="--c:var(--accent)" hidden>
+      <h3><span class="en">Participatory approaches for inclusive health AI</span><span class="pt">Abordagens participativas para uma IA inclusiva na saúde</span></h3>
+      <span class="status s-prog"><span class="en">Manuscript in preparation</span><span class="pt">Manuscrito em preparação</span></span><span class="status s-role"><span class="en">Shared first author</span><span class="pt">Primeira autoria partilhada</span></span>
+      <p><span class="en">How lived experience and stakeholder knowledge can shape AI, and what meaningful public involvement looks like in practice. I will present this work as an oral communication at the European Public Health Conference in Bilbao in November 2026.</span><span class="pt">Como a experiência vivida e o conhecimento das partes interessadas podem moldar a IA, e o que é, na prática, um envolvimento público com significado. Vou apresentar este trabalho numa comunicação oral na European Public Health Conference, em Bilbau, em novembro de 2026.</span></p>
+    </div>
+    <div class="chapter" role="tabpanel" id="ch-3" aria-labelledby="st-3" style="--c:var(--sage)" hidden>
+      <h3><span class="en">Collaboration in ELSA research</span><span class="pt">Colaboração na investigação ELSA</span></h3>
+      <span class="status s-prog"><span class="en">Manuscript in preparation</span><span class="pt">Manuscrito em preparação</span></span><span class="status s-role"><span class="en">Shared first author</span><span class="pt">Primeira autoria partilhada</span></span>
+      <p><span class="en">The epistemic and organisational conditions that let researchers, companies, government and citizens work together on responsible AI. A qualitative study across the Dutch ELSA Labs.</span><span class="pt">As condições epistémicas e organizacionais que permitem a investigadores, empresas, governo e cidadãos trabalhar em conjunto numa IA responsável. Um estudo qualitativo com os ELSA Labs dos Países Baixos.</span></p>
+    </div>
+    <div class="chapter" role="tabpanel" id="ch-4" aria-labelledby="st-4" style="--c:var(--sage)" hidden>
+      <h3><span class="en">AI regulatory sandboxes in healthcare</span><span class="pt">Sandboxes regulatórias de IA na saúde</span></h3>
+      <span class="status s-prog"><span class="en">In progress</span><span class="pt">Em curso</span></span><span class="status s-role"><span class="en">First author</span><span class="pt">Primeira autora</span></span>
+      <p><span class="en">A realist review of how AI regulatory sandboxes could support responsible AI governance in European healthcare, together with a simulation exercise we ran at the UMCG. The simulation showed what a sandbox would need and what goes wrong without one.</span><span class="pt">Uma revisão realista sobre a forma como as sandboxes regulatórias de IA podem apoiar uma governação responsável da IA na saúde na Europa, a par de um exercício de simulação que realizámos no UMCG. A simulação mostrou o que uma sandbox precisa e o que falha sem ela.</span></p>
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12556877/"><span class="en">Read the simulation abstract</span><span class="pt">Ler o resumo da simulação</span></a>
+    </div>
+    <div class="chapter" role="tabpanel" id="ch-5" aria-labelledby="st-5" style="--c:var(--ochre)" hidden>
+      <h3>The ELSA Way: <span class="en">a protocol for a responsible AI knowledge platform</span><span class="pt">protocolo para uma plataforma de conhecimento sobre IA responsável</span></h3>
+      <span class="status s-prog"><span class="en">In progress</span><span class="pt">Em curso</span></span><span class="status s-role"><span class="en">First author</span><span class="pt">Primeira autora</span></span>
+      <p><span class="en">An evidence-based protocol for designing and validating a community-driven handbook for responsible health AI.</span><span class="pt">Um protocolo baseado em evidência para desenhar e validar um guia comunitário para uma IA responsável na saúde.</span></p>
+  <div id="research-elsaway-anchor" style="margin-top:20px">
+    <div class="ew">
+      <div>
+        <p><span class="en">Much of what we know about the ethical, legal and societal aspects of AI is tacit, locked in academic papers or scattered across projects. The ELSA Way is a freely accessible, open handbook that captures and shares practical guidance for embedding ELSA across the whole AI lifecycle: design, development, evaluation and implementation. It starts in healthcare and is intended for all sectors.</span><span class="pt">Muito do que sabemos sobre os aspetos éticos, legais e sociais da IA é tácito, fica fechado em artigos científicos ou disperso entre projetos. O ELSA Way é um guia aberto e de acesso livre que reúne orientações práticas para integrar os aspetos ELSA em todo o ciclo de vida da IA: conceção, desenvolvimento, avaliação e implementação. Começa pela saúde e destina-se a todos os setores.</span></p>
+        <p class="muted" style="font-size:15.5px"><span class="en">Inspired by The Turing Way. Written in Markdown, published with Jupyter Book, developed on GitHub, with a citable DOI for every version. Joint work with Sophie de Klerk, Steven Warmelink, Hilbrand Oldenhuis, Claudine Lamoth and Mirjam Plantinga.</span><span class="pt">Inspirado no The Turing Way. Escrito em Markdown, publicado com Jupyter Book, desenvolvido no GitHub, com um DOI citável para cada versão. Trabalho conjunto com Sophie de Klerk, Steven Warmelink, Hilbrand Oldenhuis, Claudine Lamoth e Mirjam Plantinga.</span></p>
+        <ul class="principles">
+          <li><b><span class="en">Living.</span><span class="pt">Vivo.</span></b> <span class="en">Anyone can propose additions or flag gaps, and an editorial board looks after quality.</span><span class="pt">Qualquer pessoa pode propor conteúdos ou assinalar lacunas, e um conselho editorial zela pela qualidade.</span></li>
+          <li><b><span class="en">Integrated.</span><span class="pt">Integrado.</span></b> <span class="en">ELSA is considered in every phase, from design to implementation.</span><span class="pt">Os aspetos ELSA são considerados em todas as fases, da conceção à implementação.</span></li>
+          <li><b><span class="en">Community-owned.</span><span class="pt">Da comunidade.</span></b> <span class="en">Built in the open, with a voice for researchers, developers, policymakers and the public.</span><span class="pt">Construído em aberto, com voz para investigadores, quem desenvolve IA, decisores políticos e o público.</span></li>
+        </ul>
+      </div>
+      <div>
+        <h4><span class="en">How we build it</span><span class="pt">Como o construímos</span></h4>
+        <ol class="phases">
+          <li><span class="num">1</span><span><b><span class="en">Developer survey</span><span class="pt">Inquérito a quem desenvolve IA</span></b><span><span class="en">Completed</span><span class="pt">Concluído</span></span></span></li>
+          <li><span class="num">2</span><span><b><span class="en">Developer interviews</span><span class="pt">Entrevistas a quem desenvolve IA</span></b><span><span class="en">Ongoing</span><span class="pt">Em curso</span></span></span></li>
+          <li><span class="num">3</span><span><b><span class="en">Stakeholder interviews</span><span class="pt">Entrevistas a partes interessadas</span></b><span><span class="en">Autumn 2026</span><span class="pt">Outono de 2026</span></span></span></li>
+          <li><span class="num">4</span><span><b><span class="en">Delphi panel</span><span class="pt">Painel Delphi</span></b><span><span class="en">Next: 20 to 30 experts work towards consensus</span><span class="pt">A seguir: 20 a 30 especialistas procuram consenso</span></span></span></li>
+        </ol>
+        <div class="cta">
+          <h3><span class="en">Join our Delphi panel</span><span class="pt">Junte-se ao nosso painel Delphi</span></h3>
+          <p><span class="en">We are looking for experts in ELSA, AI ethics, AI governance or healthcare AI development, from academia, healthcare, policy and industry. It takes two or three short online rounds and a consensus meeting.</span><span class="pt">Procuramos especialistas em ELSA, ética da IA, governação da IA ou desenvolvimento de IA para a saúde, da academia, da saúde, das políticas públicas e da indústria. São duas ou três rondas online curtas e uma reunião de consenso.</span></p>
+          <div class="copy-row"><span class="addr" id="mail-delphi">p.pita.ferreira(a)umcg.nl</span><button type="button" class="copy" data-target="mail-delphi"><span class="en">Copy</span><span class="pt">Copiar</span></button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- ================= PUBLICATIONS ================= -->
+<section class="page" data-page="publications" hidden>
+  <h1 class="page-title" data-nav="publications"></h1>
+  <p class="page-intro"><span class="en">From COVID-19 epidemiology to inclusive health AI. Every conference abstract here was presented at a European Public Health Conference.</span><span class="pt">Da epidemiologia da COVID-19 à IA inclusiva na saúde. Todos os resumos aqui listados foram apresentados numa European Public Health Conference.</span></p>
+  <div class="pub-tools">
+    <label for="pub-search" class="sr">Search</label>
+    <input class="search" id="pub-search" type="search">
+    <div class="filters" role="group" aria-label="Filter">
+      <button type="button" id="f-all" data-f="all" aria-pressed="true"><span class="en">All</span><span class="pt">Todas</span><span class="n"></span></button>
+      <button type="button" id="f-first" data-f="first" aria-pressed="false"><span class="en">First author</span><span class="pt">Primeira autora</span><span class="n"></span></button>
+      <button type="button" id="f-article" data-f="article" aria-pressed="false"><span class="en">Articles</span><span class="pt">Artigos</span><span class="n"></span></button>
+      <button type="button" id="f-abstract" data-f="abstract" aria-pressed="false"><span class="en">Abstracts</span><span class="pt">Resumos</span><span class="n"></span></button>
+      <button type="button" id="f-preprint" data-f="preprint" aria-pressed="false"><span class="en">Preprints</span><span class="pt">Preprints</span><span class="n"></span></button>
+    </div>
+  </div>
+  <div id="publist" aria-live="polite"></div>
+  <p class="pub-note"><span class="en">Also on</span><span class="pt">Também no</span> <a href="https://orcid.org/0000-0002-4460-4549">ORCID</a>, <a href="https://scholar.google.com/citations?user=n7HuaPcAAAAJ">Google Scholar</a> <span class="en">and the</span><span class="pt">e no</span> <a href="https://research.rug.nl/en/persons/patr%C3%ADcia-pita-ferreira"><span class="en">University of Groningen research portal</span><span class="pt">portal de investigação da Universidade de Groningen</span></a>.</p>
+</section>
+
+<!-- ================= TALKS ================= -->
+<section class="page" data-page="talks" hidden>
+  <h1 class="page-title" data-nav="talks"></h1>
+  <p class="page-intro"><span class="en">Conference presentations, panels, webinars, lectures and invited talks, for audiences ranging from local health teams to European conferences.</span><span class="pt">Comunicações em congressos, painéis, webinars, aulas e convites, para audiências que vão de equipas de saúde locais a congressos europeus.</span></p>
+  <div class="speak">
+    <div>
+      <h2 class="speak-h"><span class="en">Invitations to speak or teach</span><span class="pt">Convites para apresentar ou ensinar</span></h2>
+      <p><span class="en">I accept invitations to speak, moderate and teach on inclusive health AI, AI governance and regulation in healthcare, AI literacy for the public health workforce, ELSA methods, and careers in public health.</span><span class="pt">Aceito convites para apresentar, moderar e ensinar sobre IA inclusiva na saúde, governação e regulação da IA na saúde, literacia em IA para profissionais de saúde pública, métodos ELSA e carreiras em saúde pública.</span></p>
+    </div>
+    <div class="copy-row"><span class="addr" id="mail-speak">p.pita.ferreira(a)umcg.nl</span><button type="button" class="copy" data-target="mail-speak"><span class="en">Copy</span><span class="pt">Copiar</span></button></div>
+  </div>
+  <div class="upcoming-box" id="upcoming-wrap">
+    <h2 style="margin:14px 0 4px; font-size:24px"><span class="en">Coming up</span><span class="pt">Em breve</span></h2>
+    <ul class="talks" id="talks-upcoming"></ul>
+  </div>
+  <div id="talks-phd"></div>
+  <h2 class="year-h" style="margin-top:48px"><span class="en">Before the PhD, 2020 to 2024</span><span class="pt">Antes do doutoramento, 2020 a 2024</span></h2>
+  <p class="muted"><span class="en">As a public health resident I presented regularly in Portugal and abroad. Grouped here by type.</span><span class="pt">Durante o internato de Saúde Pública apresentei regularmente em Portugal e no estrangeiro. Aqui agrupado por tipo.</span></p>
+  <div id="talks-before"></div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="page" data-page="experience" hidden>
+  <h1 class="page-title" data-nav="experience"></h1>
+  <p class="page-intro"><span class="en">I am a Portuguese medical doctor and public health specialist, with experience at local, regional and national level. My work in public health practice led to my research on AI.</span><span class="pt">Sou médica e especialista em Saúde Pública, com experiência a nível local, regional e nacional. O trabalho na prática de saúde pública conduziu à minha investigação em IA.</span></p>
+  <div class="block" style="margin-top:0; margin-bottom:56px">
+    <h2><span class="en">Before the PhD: selected projects</span><span class="pt">Antes do doutoramento: projetos selecionados</span></h2>
+    <p class="muted"><span class="en">Data, AI and public health practice in Portugal, 2020 to 2024.</span><span class="pt">Dados, IA e prática de saúde pública em Portugal, 2020 a 2024.</span></p>
+    <div class="before">
+      <article><span class="k"><span class="en">Viral hepatitis</span><span class="pt">Hepatites virais</span></span><h3>Hep-ØN</h3><p><span class="en">I designed and led a micro-elimination pilot for chronic viral hepatitis in the Oeste Norte region, reaching 22,000 adults. National news described the region as a case study for the country, and the project won a best oral communication award.</span><span class="pt">Desenhei e liderei um projeto-piloto de micro-eliminação das hepatites virais crónicas no Oeste Norte, dirigido a 22 000 adultos. A imprensa nacional apresentou a região como caso de estudo para o país, e o projeto recebeu um prémio de melhor comunicação oral.</span></p></article>
+      <article><span class="k"><span class="en">AI in surveillance</span><span class="pt">IA na vigilância</span></span><h3><span class="en">Causes of death in real time</span><span class="pt">Causas de morte em tempo real</span></h3><p><span class="en">At the Directorate-General of Health I tested a deep neural network that classifies causes of death from death certificates, and methods to detect excess mortality. This became my master's thesis and a first-author paper in JMIR AI.</span><span class="pt">Na Direção-Geral da Saúde avaliei uma rede neuronal profunda que classifica causas de morte a partir dos certificados de óbito, e métodos para identificar períodos de excesso de mortalidade. Este trabalho deu origem à minha tese de mestrado e a um artigo como primeira autora na JMIR AI.</span></p></article>
+      <article><span class="k">COVID-19</span><h3><span class="en">Pandemic response</span><span class="pt">Resposta à pandemia</span></h3><p><span class="en">I worked on the local COVID-19 response in the Oeste Norte region, built a regional dashboard for the entire Lisbon and Tagus Valley region to support decisions, and contributed to studies on vaccine effectiveness and vaccine hesitancy, one of which won the Francisco George Public Health Award.</span><span class="pt">Participei na resposta local à COVID-19 no Oeste Norte, construí um dashboard de apoio à decisão para toda a região de Lisboa e Vale do Tejo e contribuí para estudos sobre efetividade vacinal e hesitação vacinal, um dos quais recebeu o Prémio de Saúde Pública Francisco George.</span></p></article>
+      <article><span class="k"><span class="en">Health planning</span><span class="pt">Planeamento em saúde</span></span><h3><span class="en">Municipal health plans</span><span class="pt">Planos municipais de saúde</span></h3><p><span class="en">With the NOVA National School of Public Health I led data analysis for health and quality of life development plans for Torres Vedras, Odivelas and Lagos, and contributed to the Digital Health Barometer.</span><span class="pt">Com a Escola Nacional de Saúde Pública da NOVA liderei a análise de dados dos Planos de Desenvolvimento em Saúde e Qualidade de Vida de Torres Vedras, Odivelas e Lagos, e contribuí para o Barómetro da Saúde Digital.</span></p></article>
+    </div>
+  </div>
+
+  <div class="two">
+    <div>
+      <h2><span class="en">Experience</span><span class="pt">Experiência</span></h2>
+      <ul class="log">
+        <li><span class="when"><span class="en">2024 – now</span><span class="pt">2024 – atual</span></span><span class="what"><strong><span class="en">PhD candidate</span><span class="pt">Doutoranda</span></strong><span>ELSA AI Lab Northern Netherlands, University Medical Center Groningen</span></span></li>
+        <li><span class="when"><span class="en">2024 – now</span><span class="pt">2024 – atual</span></span><span class="what"><strong><span class="en">National Programme for Viral Hepatitis</span><span class="pt">Programa Nacional para as Hepatites Virais</span></strong><span><span class="en">Directorate-General of Health, Portugal. Public health specialist designated to support the Programme Director, for a three-year term from June 2024.</span><span class="pt">Direção-Geral da Saúde. Médica especialista em Saúde Pública designada para coadjuvar o Diretor do Programa, por um mandato de três anos desde junho de 2024.</span></span><a href="https://diariodarepublica.pt/dr/detalhe/despacho/9610-2026-1153221765">Despacho n.º 9610/2026</a></span></li>
+        <li><span class="when">2022 – 2024</span><span class="what"><strong><span class="en">Consultant and researcher</span><span class="pt">Consultora e investigadora</span></strong><span><span class="en">Directorate-General of Health, Portugal. Viral hepatitis, vaccination, COVID-19 surveillance, health data analytics and AI. National collaborator for ECDC's chronic hepatitis sentinel surveillance.</span><span class="pt">Direção-Geral da Saúde. Hepatites virais, vacinação, vigilância da COVID-19, análise de dados em saúde e IA. Colaboradora nacional na vigilância sentinela das hepatites crónicas do ECDC.</span></span></span></li>
+        <li><span class="when">2020 – 2023</span><span class="what"><strong><span class="en">Public health resident</span><span class="pt">Médica interna de Saúde Pública</span></strong><span><span class="en">Public Health Unit Zé Povinho, ACES Oeste Norte, with training placements at the Directorate-General of Health and the NOVA National School of Public Health. Specialist title in 2024.</span><span class="pt">Unidade de Saúde Pública Zé Povinho, ACES Oeste Norte, com estágios na Direção-Geral da Saúde e na Escola Nacional de Saúde Pública. Título de especialista em 2024.</span></span></span></li>
+        <li><span class="when">2021 – 2023</span><span class="what"><strong><span class="en">Consultant and researcher</span><span class="pt">Consultora e investigadora</span></strong><span><span class="en">NOVA National School of Public Health. Municipal health planning, AI4Healthy Cities Lisbon and the Digital Health Barometer.</span><span class="pt">Escola Nacional de Saúde Pública, Universidade NOVA de Lisboa. Planeamento municipal em saúde, AI4Healthy Cities Lisboa e Barómetro da Saúde Digital.</span></span></span></li>
+        <li><span class="when">2022</span><span class="what"><strong><span class="en">Consultant</span><span class="pt">Consultora</span></strong><span><span class="en">WHO Collaborating Centre for Education, Research and Evaluation of Safety and Quality in Healthcare, NOVA. Infection prevention and control at a Lisbon university hospital.</span><span class="pt">Centro Colaborador da OMS para a Educação, Investigação e Avaliação da Segurança e Qualidade em Saúde, ENSP. Prevenção e controlo de infeção num centro hospitalar universitário de Lisboa.</span></span></span></li>
+        <li><span class="when">2019</span><span class="what"><strong><span class="en">General medical internship</span><span class="pt">Internato de Formação Geral</span></strong><span>Centro Hospitalar Universitário de Lisboa Central</span></span></li>
+      </ul>
+    </div>
+    <div>
+      <h2><span class="en">Education</span><span class="pt">Formação académica</span></h2>
+      <ul class="log">
+        <li><span class="when"><span class="en">2024 – now</span><span class="pt">2024 – atual</span></span><span class="what"><strong><span class="en">PhD, Responsible AI in Health</span><span class="pt">Doutoramento, IA Responsável na Saúde</span></strong><span>Graduate School of Medical Sciences, University of Groningen</span></span></li>
+        <li><span class="when">2022 – 2023</span><span class="what"><strong><span class="en">MPH, Master's in Public Health</span><span class="pt">Mestrado em Saúde Pública</span></strong><span><span class="en">NOVA National School of Public Health, Lisbon</span><span class="pt">Escola Nacional de Saúde Pública, Universidade NOVA de Lisboa</span></span></span></li>
+        <li><span class="when">2021</span><span class="what"><strong><span class="en">Public Health Specialisation Course</span><span class="pt">Curso de Especialização em Saúde Pública</span></strong><span><span class="en">NOVA National School of Public Health</span><span class="pt">Escola Nacional de Saúde Pública</span></span></span></li>
+        <li><span class="when">2021 – 2022</span><span class="what"><strong><span class="en">Postgraduate, Information Management and Business Intelligence in Healthcare</span><span class="pt">Pós-graduação em Gestão de Informação e Business Intelligence na Saúde</span></strong><span>NOVA Information Management School</span></span></li>
+        <li><span class="when">2021 – 2022</span><span class="what"><strong><span class="en">Postgraduate, Communication in Public Health</span><span class="pt">Pós-graduação em Comunicação em Saúde Pública</span></strong><span><span class="en">Católica Lisbon Faculty of Human Sciences</span><span class="pt">Faculdade de Ciências Humanas, Universidade Católica Portuguesa</span></span></span></li>
+        <li><span class="when">2020 – 2021</span><span class="what"><strong><span class="en">Postgraduate, Travel Medicine</span><span class="pt">Pós-graduação em Medicina do Viajante</span></strong><span><span class="en">Institute of Hygiene and Tropical Medicine, NOVA</span><span class="pt">Instituto de Higiene e Medicina Tropical, NOVA</span></span></span></li>
+        <li><span class="when">2012 – 2018</span><span class="what"><strong><span class="en">MD, Doctor of Medicine</span><span class="pt">Mestrado Integrado em Medicina</span></strong><span><span class="en">Lisbon School of Medicine, University of Lisbon, and University of Madeira</span><span class="pt">Faculdade de Medicina da Universidade de Lisboa e Universidade da Madeira</span></span></span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="block">
+    <h2><span class="en">Skills and methods</span><span class="pt">Competências e métodos</span></h2>
+    <div class="skills">
+      <div><h3><span class="en">Research methods</span><span class="pt">Métodos de investigação</span></h3><ul class="tags">
+        <li><span class="en">Co-design and design thinking</span><span class="pt">Co-design e design thinking</span></li><li><span class="en">Delphi studies</span><span class="pt">Estudos Delphi</span></li><li><span class="en">Realist review</span><span class="pt">Revisão realista</span></li><li><span class="en">Thematic analysis</span><span class="pt">Análise temática</span></li><li><span class="en">Interviews and focus groups</span><span class="pt">Entrevistas e grupos focais</span></li><li><span class="en">Simulation exercises</span><span class="pt">Exercícios de simulação</span></li><li><span class="en">Epidemiology and surveillance</span><span class="pt">Epidemiologia e vigilância</span></li><li><span class="en">Interrupted time series</span><span class="pt">Séries temporais interrompidas</span></li><li><span class="en">Spatial analysis</span><span class="pt">Análise espacial</span></li><li><span class="en">Evaluating AI models</span><span class="pt">Avaliação de modelos de IA</span></li>
+      </ul></div>
+      <div><h3><span class="en">Policy and practice</span><span class="pt">Políticas e prática</span></h3><ul class="tags">
+        <li><span class="en">AI governance</span><span class="pt">Governação da IA</span></li><li><span class="en">EU AI Act</span><span class="pt">Regulamento Europeu da IA</span></li><li><span class="en">Regulatory sandboxes</span><span class="pt">Sandboxes regulatórias</span></li><li><span class="en">Health programme management</span><span class="pt">Gestão de programas de saúde</span></li><li><span class="en">Health planning</span><span class="pt">Planeamento em saúde</span></li><li><span class="en">Stakeholder engagement</span><span class="pt">Envolvimento de partes interessadas</span></li><li><span class="en">Health and risk communication</span><span class="pt">Comunicação em saúde e de risco</span></li><li><span class="en">Outbreak investigation</span><span class="pt">Investigação de surtos</span></li>
+      </ul></div>
+      <div><h3><span class="en">Tools and languages</span><span class="pt">Ferramentas e línguas</span></h3><ul class="tags">
+        <li>R</li><li>Python</li><li>SQL</li><li>Power BI</li><li>Power Automate</li><li>QualCoder</li><li>ATLAS.ti</li><li>Adobe Creative Suite</li>
+        <li><span class="en">Portuguese (native)</span><span class="pt">Português (nativo)</span></li><li><span class="en">English (Cambridge CAE)</span><span class="pt">Inglês (Cambridge CAE)</span></li><li><span class="en">Spanish</span><span class="pt">Espanhol</span></li><li><span class="en">Basic French, Italian, Dutch</span><span class="pt">Francês, italiano e neerlandês básicos</span></li>
+      </ul></div>
+    </div>
+  </div>
+
+  <div class="block two">
+    <div>
+      <h2><span class="en">Teaching and training</span><span class="pt">Docência e formação</span></h2>
+      <ul class="simple">
+        <li><span class="en">Guest lectures on AI in health and the role of epidemiology, Public Health Specialisation Course, NOVA National School of Public Health</span><span class="pt">Aulas convidadas sobre IA em saúde e o papel da Epidemiologia, Curso de Especialização em Saúde Pública, ENSP</span> <span class="yr">2022, 2023, 2025, 2026</span></li>
+        <li><span class="en">Masterclass on the governance and implementation of AI in health, Data Science in Public Health course, NOVA National School of Public Health</span><span class="pt">Masterclass sobre governação e implementação de IA na saúde, curso de Ciência de Dados em Saúde Pública, ENSP</span> <span class="yr">2025</span></li>
+        <li><span class="en">Talk for new public health residents on an academic career path, INSPIRA, ANMSP</span><span class="pt">Sessão para novos internos de Saúde Pública sobre o percurso académico, INSPIRA, ANMSP</span> <span class="yr">2025</span></li>
+        <li><span class="en">Environmental health practice for medical students, University of Lisbon</span><span class="pt">Práticas em Saúde Ambiental para estudantes de Medicina, FMUL</span> <span class="yr">2023</span></li>
+        <li><span class="en">“Numbers and public health” for psychology students, Universidade Católica Portuguesa</span><span class="pt">“Os Números e a Saúde Pública” para estudantes de Psicologia, UCP</span> <span class="yr">2023</span></li>
+        <li><span class="en">Training for primary care teams across Oeste Norte on chronic viral hepatitis and surveillance</span><span class="pt">Formação às equipas de cuidados de saúde primários do Oeste Norte sobre hepatites virais crónicas e vigilância</span> <span class="yr">2023</span></li>
+        <li><span class="en">Training for primary and secondary school teachers on COVID-19 and on the use of AI</span><span class="pt">Formação para professores do ensino básico e secundário sobre COVID-19 e sobre a utilização de IA</span></li>
+        <li><span class="en">COVID-19 training for health workers, schools, businesses, restaurants, farming and civil protection</span><span class="pt">Formação sobre COVID-19 para profissionais de saúde, escolas, empresas, restauração, setor agrícola e proteção civil</span> <span class="yr">2020 – 2021</span></li>
+        <li><span class="en">Organiser, Summer School Data Science and AI in Health, University of Groningen</span><span class="pt">Organização da Summer School Data Science and AI in Health, Universidade de Groningen</span> <span class="yr">2025</span></li>
+        <li><span class="en">Certified trainer (Certificate of Pedagogical Competences)</span><span class="pt">Formadora certificada (Certificado de Competências Pedagógicas)</span> <span class="yr">2020</span></li>
+      </ul>
+    </div>
+    <div>
+      <h2><span class="en">Selected courses</span><span class="pt">Cursos selecionados</span></h2>
+      <ul class="simple">
+        <li><span class="en">Basic course on Regulations and Organisation of Clinical Trials (BROK)</span><span class="pt">Curso básico de regulamentação e organização de ensaios clínicos (BROK)</span> <span class="yr">2025</span></li>
+        <li>Epidemic Intelligence, ECDC <span class="yr">2023</span></li>
+        <li>Certification of Causes of Death in Europe, European Union <span class="yr">2023</span></li>
+        <li>Geographic Information Systems for Public Health, ISPUP <span class="yr">2022</span></li>
+        <li><span class="en">Field epidemiology: mass gatherings, INSA</span><span class="pt">Epidemiologia de campo: eventos de massas, INSA</span> <span class="yr">2022</span></li>
+        <li>Artificial Intelligence within Biomedical Engineering and Health Systems, KTH Royal Institute of Technology <span class="yr">2021</span></li>
+        <li>Data, Visualization and Connectivity for Healthcare, EIT Digital and Coventry University <span class="yr">2021</span></li>
+        <li><span class="en">Field epidemiology: outbreak investigation, INSA</span><span class="pt">Epidemiologia de campo: investigação de surtos, INSA</span> <span class="yr">2020</span></li>
+        <li><span class="en">Epidemiology and biostatistics in R (Epi-STAT), INSA</span><span class="pt">Epidemiologia e bioestatística em R (Epi-STAT), INSA</span> <span class="yr">2020</span></li>
+        <li>Young Medical Leaders Program, Católica Lisbon School of Business &amp; Economics <span class="yr">2019</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICE ================= -->
+<section class="page" data-page="service" hidden>
+  <h1 class="page-title" data-nav="service"></h1>
+  <p class="page-intro"><span class="en">Alongside my research, I hold coordinating and mentoring roles in European and Portuguese public health networks.</span><span class="pt">A par da investigação, desempenho funções de coordenação e mentoria em redes de saúde pública europeias e portuguesas.</span></p>
+  <div class="two">
+    <div>
+      <h2><span class="en">Roles</span><span class="pt">Cargos</span></h2>
+      <ul class="log" id="act-list">
+        <li><span class="when"><span class="en">Jul – Dec 2026</span><span class="pt">jul. – dez. 2026</span></span><span class="what"><strong><span class="en">Mentor, 2nd EuroNet MRPH Mentorship Programme</span><span class="pt">Mentora, 2.º Programa de Mentoria da EuroNet MRPH</span></strong><span><span class="en">European Network of Multidisciplinary Residents in Public Health. I mentor two public health residents, in Spanish.</span><span class="pt">Rede Europeia de Internos Multidisciplinares de Saúde Pública. Acompanho dois internos de Saúde Pública, em espanhol.</span></span><a href="https://euronetmrph.org/">euronetmrph.org</a></span></li>
+        <li><span class="when"><span class="en">2025 – now</span><span class="pt">2025 – atual</span></span><span class="what"><strong><span class="en">Co-coordinator, EUPHAnxt</span><span class="pt">Co-coordenadora, EUPHAnxt</span></strong><span><span class="en">Early-career network of the European Public Health Association</span><span class="pt">Rede de estudantes e jovens profissionais da Associação Europeia de Saúde Pública</span></span></span></li>
+        <li><span class="when">2025</span><span class="what"><strong><span class="en">Organiser, Summer School Data Science and AI in Health</span><span class="pt">Organização, Summer School Data Science and AI in Health</span></strong><span><span class="en">University of Groningen</span><span class="pt">Universidade de Groningen</span></span></span></li>
+        <li><span class="when"><span class="en">Feb 2025</span><span class="pt">fev. 2025</span></span><span class="what"><strong><span class="en">Lead organiser and scientific coordinator</span><span class="pt">Organizadora principal e coordenadora científica</span></strong><span><span class="en">Lorentz Center workshop “Inclusive Medical AI: Exploring Diverse Perspectives”, Leiden</span><span class="pt">Workshop do Lorentz Center “Inclusive Medical AI: Exploring Diverse Perspectives”, Leiden</span></span><a href="https://research.rug.nl/en/activities/lorentz-center-workshop-inclusive-medical-ai-exploring-diverse-pe/"><span class="en">Workshop details</span><span class="pt">Detalhes do workshop</span></a></span></li>
+        <li><span class="when">2024 – 2025</span><span class="what"><strong><span class="en">Communication Officer, Digital Healthcare Community</span><span class="pt">Responsável de comunicação, Digital Healthcare Community</span></strong><span><span class="en">Jantina Tammes School of Digital Society, Technology and AI, University of Groningen</span><span class="pt">Jantina Tammes School of Digital Society, Technology and AI, Universidade de Groningen</span></span></span></li>
+        <li><span class="when">2023 – 2025</span><span class="what"><strong><span class="en">Substitute member, Lisbon Sub-Regional Council</span><span class="pt">Membro suplente, Conselho Sub-Regional de Lisboa</span></strong><span><span class="en">Portuguese Medical Association (Ordem dos Médicos)</span><span class="pt">Ordem dos Médicos</span></span></span></li>
+        <li><span class="when">2021 – 2023</span><span class="what"><strong><span class="en">Coordinator, Commission of Public Health Residents</span><span class="pt">Coordenadora, Comissão de Médicos Internos de Saúde Pública</span></strong><span><span class="en">Lisbon and Tagus Valley region</span><span class="pt">Região de Lisboa e Vale do Tejo</span></span></span></li>
+        <li><span class="when">2021 – 2022</span><span class="what"><strong><span class="en">Organising committee, National Meetings of Public Health Residents</span><span class="pt">Comissão organizadora, Encontros Nacionais de Médicos Internos de Saúde Pública</span></strong><span><span class="en">XII and XIII editions, communication and image</span><span class="pt">XII e XIII edições, comunicação e imagem</span></span></span></li>
+        <li><span class="when">2020 – 2022</span><span class="what"><strong><span class="en">Podcast team, Saúde+Pública</span><span class="pt">Equipa do podcast, Saúde+Pública</span></strong><span><span class="en">Platform of Portuguese public health residents</span><span class="pt">Plataforma dos Médicos Internos de Saúde Pública</span></span></span></li>
+        <li><span class="when">2019</span><span class="what"><strong><span class="en">Vice-President for Communication and Image</span><span class="pt">Vice-Presidente da Imagem e Comunicação</span></strong><span><span class="en">National Congress of General Medical Interns</span><span class="pt">Congresso Nacional do Médico Interno de Formação Geral</span></span></span></li>
+      </ul>
+    </div>
+    <div>
+      <h2><span class="en">Memberships</span><span class="pt">Associações</span></h2>
+      <ul class="log">
+        <li><span class="when">EUPHA</span><span class="what"><strong><span class="en">European Public Health Association</span><span class="pt">Associação Europeia de Saúde Pública</span></strong><span><span class="en">Member of the Digital Health and Artificial Intelligence Section</span><span class="pt">Membro da Secção de Saúde Digital e Inteligência Artificial</span></span></span></li>
+        <li><span class="when">ANMSP</span><span class="what"><strong><span class="en">Portuguese National Association of Public Health Physicians</span><span class="pt">Associação Nacional dos Médicos de Saúde Pública</span></strong><span><span class="en">Member since 2019</span><span class="pt">Sócia desde 2019</span></span></span></li>
+        <li><span class="when">OM</span><span class="what"><strong><span class="en">Portuguese Medical Association (Ordem dos Médicos)</span><span class="pt">Ordem dos Médicos</span></strong><span><span class="en">Professional licence no. 66685</span><span class="pt">Cédula profissional n.º 66685</span></span></span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= AWARDS ================= -->
+<section class="page" data-page="awards" hidden>
+  <h1 class="page-title" data-nav="awards"></h1>
+  <p class="page-intro"><span class="en">Recognition for my work in public health.</span><span class="pt">Reconhecimento pelo meu trabalho em saúde pública.</span></p>
+  <ul class="awards" id="award-list">
+    <li class="award">
+      <span class="yr">2023</span>
+      <h3><span class="en">Best Oral Communication</span><span class="pt">Melhor Comunicação Oral</span></h3>
+      <p><span class="en">Study Groups Meeting of the Portuguese Association of General and Family Medicine (APMGF), for “Projeto Hep-ØN: Uma Abordagem Compreensiva para Reduzir as Hepatites Virais Crónicas em Portugal”.</span><span class="pt">Encontro de Grupos de Estudo da Associação Portuguesa de Medicina Geral e Familiar (APMGF), com “Projeto Hep-ØN: Uma Abordagem Compreensiva para Reduzir as Hepatites Virais Crónicas em Portugal”.</span></p>
+    </li>
+    <li class="award">
+      <span class="yr">2022</span>
+      <h3><span class="en">Francisco George Public Health Award</span><span class="pt">Prémio de Saúde Pública Francisco George</span></h3>
+      <p><span class="en">Portugal's Ministry of Health created this prize in 2017 to recognise original and innovative public health research with real impact. It went to our study “Spatial Analysis of Determinants of COVID-19 Vaccine Hesitancy in Portugal”, which I co-authored at the Directorate-General of Health.</span><span class="pt">Prémio criado pelo Ministério da Saúde em 2017 para distinguir investigação inédita e inovadora em saúde pública, com relevância e impacto. Foi atribuído ao nosso estudo “Spatial Analysis of Determinants of COVID-19 Vaccine Hesitancy in Portugal”, de que sou coautora, realizado na Direção-Geral da Saúde.</span></p>
+      <a href="https://diariodarepublica.pt/dr/detalhe/despacho/9242-2017-108346363"><span class="en">About the prize (Despacho n.º 9242/2017)</span><span class="pt">Sobre o prémio (Despacho n.º 9242/2017)</span></a>
+    </li>
+  </ul>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="page" data-page="contact" hidden>
+  <h1 class="page-title" data-nav="contact"></h1>
+  <p class="page-intro"><span class="en">I welcome enquiries about positions, research collaborations and invitations to speak or teach. Email is the most reliable way to reach me.</span><span class="pt">Recebo com interesse contactos sobre oportunidades profissionais, colaborações de investigação e convites para apresentar ou ensinar. O email é a forma mais fiável de me contactar.</span></p>
+  <ul class="mail-list">
+    <li><div><span class="k"><span class="en">Work</span><span class="pt">Profissional</span></span><span class="addr" id="mail-work">p.pita.ferreira(a)umcg.nl</span></div><button type="button" class="copy" data-target="mail-work"><span class="en">Copy</span><span class="pt">Copiar</span></button></li>
+    <li><div><span class="k"><span class="en">Personal</span><span class="pt">Pessoal</span></span><span class="addr" id="mail-personal">ppita.ferreira(a)gmail.com</span></div><button type="button" class="copy" data-target="mail-personal"><span class="en">Copy</span><span class="pt">Copiar</span></button></li>
+  </ul>
+  <ul class="profiles">
+    <li><a href="https://www.linkedin.com/in/patricia-pita-ferreira/"><b>LinkedIn</b><span>patricia-pita-ferreira</span></a></li>
+    <li><a href="https://orcid.org/0000-0002-4460-4549"><b>ORCID</b><span>0000-0002-4460-4549</span></a></li>
+    <li><a href="https://scholar.google.com/citations?user=n7HuaPcAAAAJ"><b>Google Scholar</b><span>Patrícia Pita Ferreira</span></a></li>
+    <li><a href="https://www.researchgate.net/profile/Patricia-Pita-Ferreira"><b>ResearchGate</b><span>Patricia-Pita-Ferreira</span></a></li>
+    <li><a href="https://x.com/ppitaferreira"><b>X</b><span>@ppitaferreira</span></a></li>
+    <li><a href="https://umcgresearch.org/w/p-pita-ferreira"><b>UMCG Research</b><span>p-pita-ferreira</span></a></li>
+  </ul>
+</section>
+
+<nav class="pager" id="pager" aria-label="Pages" hidden></nav>
+<footer>
+  <span>© 2026 Patrícia Pita Ferreira</span>
+  <span><span class="en">Groningen, the Netherlands</span><span class="pt">Groningen, Países Baixos</span></span>
+  <p class="ai-note"><span class="en">I built this website with the help of Claude Opus 5.5, an AI model by Anthropic. I reviewed and checked all of its content myself.</span><span class="pt">Construí este site com a ajuda do Claude Opus 5.5, um modelo de IA da Anthropic. Revi e verifiquei pessoalmente todo o conteúdo.</span></p>
+</footer>
+</main>
+</div>
+
+<script>
+(function(){
+var app = document.getElementById("app");
+var LANG = "en";
+var TODAY = new Date(); TODAY.setHours(0,0,0,0);
+function T(o){ return typeof o === "string" ? o : (o[LANG] || o.en); }
+function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+function fmt(iso, monthOnly){
+  var d = new Date(iso + "T12:00:00");
+  var o = monthOnly ? {month:"short", year:"numeric"} : {day:"numeric", month:"short", year:"numeric"};
+  return new Intl.DateTimeFormat(LANG === "pt" ? "pt-PT" : "en-GB", o).format(d);
+}
+
+/* ---------- names ---------- */
+var order = ["home","research","publications","talks","experience","service","awards","contact"];
+var NAMES = {
+  home:{en:"Home", pt:"Início"}, research:{en:"Research", pt:"Investigação"}, publications:{en:"Publications", pt:"Publicações"},
+  talks:{en:"Talks", pt:"Comunicações"}, experience:{en:"Experience", pt:"Percurso"}, service:{en:"Service", pt:"Atividades"},
+  awards:{en:"Awards", pt:"Prémios"}, contact:{en:"Contact", pt:"Contacto"}
+};
+
+/* ---------- PREFER-IT letters ---------- */
+var PREFER = [
+  {l:"P", c:"#E69F00", f:"#1A1A1A", n:{en:"Participatory and co-design approaches", pt:"Abordagens participativas e de co-design"},
+   d:{en:"Involving citizens and patients, especially from underserved and diverse groups, in every stage of the AI lifecycle and in AI governance.", pt:"Envolver cidadãos e doentes, sobretudo de grupos diversos e mal servidos, em todas as fases do ciclo de vida da IA e na sua governação."},
+   x:{en:"Advisory boards, community-based engagement, co-creation workshops, participatory governance, incentives, broader opt-out.", pt:"Conselhos consultivos, envolvimento comunitário, workshops de co-criação, governação participativa, incentivos, opt-out mais amplo."}, y:{en:"Humans", pt:"Pessoas"}},
+  {l:"R", s:"1", c:"#56B4E9", f:"#1A1A1A", n:{en:"Representative and diverse data", pt:"Dados representativos e diversos"},
+   d:{en:"Including data that reflect the heterogeneity of patient populations and their lived experiences.", pt:"Incluir dados que reflitam a heterogeneidade das populações de doentes e as suas experiências vividas."},
+   x:{en:"Inclusive datasets, patient-reported outcomes, data on social determinants of health, qualitative data sources, measuring the costs and risks of poor data selection.", pt:"Conjuntos de dados inclusivos, resultados reportados pelos doentes, dados sobre determinantes sociais da saúde, fontes qualitativas, medir custos e riscos de uma má seleção de dados."}, y:{en:"Data", pt:"Dados"}},
+  {l:"E", s:"1", c:"#CC79A7", f:"#1A1A1A", n:{en:"Education and digital literacy", pt:"Educação e literacia digital"},
+   d:{en:"Building understanding of how AI is developed and used, including its benefits and risks, among citizens, patients and health professionals.", pt:"Promover a compreensão sobre o desenvolvimento e a utilização da IA, incluindo benefícios e riscos, entre cidadãos, doentes e profissionais de saúde."},
+   x:{en:"AI literacy campaigns, training modules, AI in medical education, campaigns aimed at underserved groups, covering law, patient rights and ethics as well as the technology.", pt:"Campanhas de literacia em IA, módulos de formação, IA na educação médica, campanhas dirigidas a grupos mal servidos, abordando direito, direitos dos doentes e ética, e não só a tecnologia."}, y:{en:"Governance", pt:"Governação"}},
+  {l:"F", c:"#F0E442", f:"#1A1A1A", n:{en:"Fairness", pt:"Equidade"},
+   d:{en:"Embedding diversity, inclusion and equity from the very start of AI development and through every stage of the lifecycle.", pt:"Integrar diversidade, inclusão e equidade desde o início do desenvolvimento da IA e em todas as fases do ciclo de vida."},
+   x:{en:"Inclusivity-by-design frameworks, equity-centred performance metrics, simulations with and without patients and their lived experience.", pt:"Modelos de inclusão desde a conceção, métricas de desempenho centradas na equidade, simulações com e sem doentes e a sua experiência vivida."}, y:{en:"Process", pt:"Processos"}},
+  {l:"E", s:"2", c:"#0072B2", f:"#FFFFFF", n:{en:"Ethical and legal accountability", pt:"Responsabilização ética e legal"},
+   d:{en:"Clear and responsible governance structures for the ethical, regulatory, legal and liability challenges across the AI lifecycle.", pt:"Estruturas de governação claras e responsáveis para os desafios éticos, regulatórios, legais e de responsabilidade ao longo do ciclo de vida da IA."},
+   x:{en:"Ethics boards with patient representation, accountability for errors, concrete guidelines for development and reporting, easier access to regulatory compliance.", pt:"Comissões de ética com representação de doentes, responsabilização por erros, orientações concretas para desenvolvimento e reporte, acesso facilitado ao cumprimento regulatório."}, y:{en:"Governance", pt:"Governação"}},
+  {l:"R", s:"2", c:"#D55E00", f:"#FFFFFF", n:{en:"Real-world validation and feedback", pt:"Validação e feedback em contexto real"},
+   d:{en:"Testing and monitoring AI tools in varied settings, with continuous input from users to improve them.", pt:"Testar e monitorizar ferramentas de IA em contextos variados, com contributos contínuos dos utilizadores para as melhorar."},
+   x:{en:"Pilots in different settings, built-in feedback loops, user-centred monitoring, research agendas shaped by patients and communities, thinking about future generations.", pt:"Pilotos em diferentes contextos, ciclos de feedback integrados, monitorização centrada no utilizador, agendas de investigação definidas com doentes e comunidades, atenção às gerações futuras."}, y:{en:"System", pt:"Sistema"}},
+  {l:"I", c:"#009E73", f:"#FFFFFF", n:{en:"Inclusive communication", pt:"Comunicação inclusiva"},
+   d:{en:"Making sure AI supports effective communication with and between diverse users and stakeholders.", pt:"Garantir que a IA favorece uma comunicação eficaz com e entre utilizadores e partes interessadas diversos."},
+   x:{en:"Interpreters and multilingual services, plain language, culturally tailored interfaces, shared terminology.", pt:"Intérpretes e serviços multilingues, linguagem simples, interfaces culturalmente adaptadas, terminologia partilhada."}, y:{en:"Governance", pt:"Governação"}},
+  {l:"T", c:"#1A1A1A", f:"#FFFFFF", n:{en:"Technical interoperability", pt:"Interoperabilidade técnica"},
+   d:{en:"Making data and systems compatible across institutions and regions.", pt:"Tornar dados e sistemas compatíveis entre instituições e regiões."},
+   x:{en:"Standardised data formats, cross-border data harmonisation, data that adapt to different contexts, data sovereignty, data cooperation and solidarity.", pt:"Formatos de dados normalizados, harmonização de dados entre países, dados adaptáveis a diferentes contextos, soberania dos dados, cooperação e solidariedade de dados."}, y:{en:"Process", pt:"Processos"}}
+];
+var letterSel = 0;
+var lettersEl = document.getElementById("letters");
+lettersEl.innerHTML = PREFER.map(function(p, i){
+  return '<button type="button" data-i="' + i + '" style="--bgc:' + p.c + '; --fg:' + p.f + '">' + p.l + (p.s ? '<sup>' + p.s + '</sup>' : '') + '</button>';
+}).join("");
+function renderLetter(){
+  var p = PREFER[letterSel];
+  lettersEl.querySelectorAll("button").forEach(function(b, i){ b.setAttribute("aria-pressed", i === letterSel ? "true" : "false"); b.setAttribute("aria-label", T(PREFER[i].n)); });
+  var out = document.getElementById("letter-out");
+  out.style.setProperty("--lc", p.c);
+  out.innerHTML = '<h4>' + esc(T(p.n)) + '</h4><p>' + esc(T(p.d)) + '</p><p class="lo-ex"><b>' + (LANG === "pt" ? "Na prática: " : "In practice: ") + '</b>' + esc(T(p.x)) + '</p><span class="lo-layer">' + (LANG === "pt" ? "Camada: " : "Layer: ") + esc(T(p.y)) + '</span>';
+}
+lettersEl.addEventListener("click", function(e){ var b = e.target.closest("button"); if(!b) return; letterSel = +b.getAttribute("data-i"); renderLetter(); });
+lettersEl.addEventListener("keydown", function(e){
+  if(e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
+  letterSel = (letterSel + (e.key === "ArrowRight" ? 1 : -1) + PREFER.length) % PREFER.length;
+  renderLetter(); lettersEl.querySelectorAll("button")[letterSel].focus();
+});
+
+/* ---------- PREFER-IT figures ---------- */
+document.querySelectorAll(".fig-tab").forEach(function(t){
+  t.addEventListener("click", function(){
+    var k = t.getAttribute("data-fig");
+    var opening = t.getAttribute("aria-expanded") !== "true";
+    document.querySelectorAll(".fig-tab").forEach(function(x){ x.setAttribute("aria-expanded", (x === t && opening) ? "true" : "false"); });
+    document.querySelectorAll(".fig").forEach(function(f){ f.hidden = !(opening && f.getAttribute("data-fig") === k); });
+    document.getElementById("fig-credit").hidden = !opening;
+  });
+});
+
+/* ---------- thesis stepper ---------- */
+var steps = Array.prototype.slice.call(document.querySelectorAll(".step"));
+function selectStep(s){
+  steps.forEach(function(x){
+    var on = x === s;
+    x.setAttribute("aria-selected", on ? "true" : "false"); x.tabIndex = on ? 0 : -1;
+    document.getElementById(x.getAttribute("aria-controls")).hidden = !on;
+  });
+}
+steps.forEach(function(s, i){
+  s.addEventListener("click", function(){ selectStep(s); });
+  s.addEventListener("keydown", function(e){
+    var j = (e.key === "ArrowRight" || e.key === "ArrowDown") ? i+1 : (e.key === "ArrowLeft" || e.key === "ArrowUp") ? i-1 : null;
+    if(j === null) return; e.preventDefault();
+    var n = steps[(j + steps.length) % steps.length]; selectStep(n); n.focus();
+  });
+});
+
+/* ---------- publications ---------- */
+var IHR_AU = "Queiroz G, Maia J, Gomes F, Chen-Xu J, China J, Carmezim Pereira S, Pita Ferreira P, Ramalho J, Roque J, Teixeira JP, Carvalho C, Oliveira L, Simões D, Gomes J, Lopes C, Correia T";
+var BA5_AU = "Kislaya I, Casaca P, Borges V, Sousa C, Ferreira BI, Fonte A, Fernandes E, Matias Dias C, Duarte S, Almeida JP, Grenho I, Coelho L, Ferreira R, Pita Ferreira P, Medeiros Borges C, Isidro J, Pinto M, Menezes L, Sobral D, Nunes A, Santos D, Maia Gonçalves A, Vieira L, Gomes JP, Pinto Leite P, Nunes B, Machado A, Peralta-Santos A";
+var EPH = {
+  2025:{en:"European Public Health Conference 2025, Helsinki", pt:"European Public Health Conference 2025, Helsínquia"},
+  2023:{en:"European Public Health Conference 2023, Dublin", pt:"European Public Health Conference 2023, Dublin"},
+  2022:{en:"European Public Health Conference 2022, Berlin", pt:"European Public Health Conference 2022, Berlim"},
+  2021:{en:"European Public Health Conference 2021, online", pt:"European Public Health Conference 2021, online"}
+};
+var pubs = [
+  {y:2026, k:"article", first:true, t:"PREFER-IT: A transdisciplinary co-created framework to realise inclusive health AI", v:"PLOS Digital Health 2026;5(9):e0001096", doi:"10.1371/journal.pdig.0001096",
+   au:"Pita Ferreira P, Soriano Longarón S, Bouisaghouane W, Goris J, Hoekman AH, Markos B, Maus B, Pozzi G, Hasan H, Kalinauskaité I, Stunt J, Kist JD, van der Elst J, Maguet K, Ziegfeld L, Cuypers M, Milota M, Habets M, Colombo S, Petrič Š, Groefsema S, Warmelink S, Daae E, Briganti G, Vajda I, Valdenegro-Toro M, Braun M, Jeekel P, Goosen S, Schepel A, Ester L, Kuzee R, de Klerk S, Lamoth C, Ballard L, Plantinga M"},
+  {y:2025, k:"abstract", first:true, fmt:"poster", t:"Advancing health equity through inclusive medical AI: findings from an interdisciplinary workshop", v:"Eur J Public Health 2025;35(Suppl 4)", doi:"10.1093/eurpub/ckaf161.1282", au:"Pita Ferreira P, Soriano Longarón S, Bouisaghouane W, Ballard LM, Plantinga M"},
+  {y:2025, k:"abstract", first:true, fmt:"oral", t:"The need for an AI regulatory sandbox in health: lessons from a simulation exercise in a hospital", v:"Eur J Public Health 2025;35(Suppl 4)", doi:"10.1093/eurpub/ckaf161.388", au:"Pita Ferreira P, de Klerk S, Warmelink S, Lamoth C, Plantinga M"},
+  {y:2024, k:"article", t:"Decentralization of the health system: experiences from Pakistan, Portugal and Brazil", v:"Health Res Policy Syst 2024;22(1)", doi:"10.1186/s12961-024-01145-3", au:"Mahmood S, Sequeira R, Siddiqui MMU, Herkenhoff MBA, Pita Ferreira P, Campos Fernandes A, Sousa P"},
+  {y:2024, k:"article", t:"From Health Communication to Health Literacy: A Comprehensive Analysis of Relevance and Strategies", v:"Port J Public Health 2024", doi:"10.1159/000537870", au:"Caeiros P, Pita Ferreira P, Chen-Xu J, Francisco R, Telo de Arriaga M"},
+  {y:2024, k:"article", award:true, t:"Spatial Analysis of Determinants of COVID-19 Vaccine Hesitancy in Portugal", v:"Vaccines 2024;12(2):119", doi:"10.3390/vaccines12020119", au:"Pinto de Carvalho C, Ribeiro M, Godinho Simões D, Pita Ferreira P, Azevedo L, Gonçalves-Sá J, Mesquita S, Gonçalves L, Pinto Leite P, Peralta-Santos A"},
+  {y:2024, k:"article", letter:true, t:"Rebuttal to the Commentary on “Assessment of the Implementation of the International Health Regulations during the COVID-19 Pandemic: Portugal as a Case Study”", v:"Acta Med Port 2024;37(12):885-6", doi:"10.20344/amp.22262", au:IHR_AU},
+  {y:2023, k:"article", first:true, t:"Real-Time Classification of Causes of Death Using AI: Sensitivity Analysis", v:"JMIR AI 2023;2:e40965", doi:"10.2196/40965", au:"Pita Ferreira P, Godinho Simões D, Pinto de Carvalho C, Duarte F, Fernandes E, Casaca Carvalho P, Loff JF, Soares AP, Albuquerque MJ, Pinto-Leite P, Peralta-Santos A"},
+  {y:2023, k:"article", t:"Assessment of the Implementation of the International Health Regulations during the COVID-19 Pandemic: Portugal as a Case Study", v:"Acta Med Port 2023;36(12):819-25", doi:"10.20344/amp.19887", au:IHR_AU},
+  {y:2023, k:"article", t:"Comparative Effectiveness of COVID-19 Vaccines in Preventing Infections and Disease Progression from SARS-CoV-2 Omicron BA.5 and BA.2, Portugal", v:"Emerg Infect Dis 2023;29(3):569-75", doi:"10.3201/eid2903.221367", au:BA5_AU},
+  {y:2023, k:"abstract", first:true, fmt:"poster", t:"Project Hep-ØN: A comprehensive approach to reduce chronic viral hepatitis in Portugal", v:"Eur J Public Health 2023;33(Suppl 2)", doi:"10.1093/eurpub/ckad160.1112", au:"Pita Ferreira P, Martins R, Filipe AR, Lopes C, Costa C, Moreira AR, Oliveira P, Perna C, Louro D, Pecante AC"},
+  {y:2023, k:"abstract", fmt:"poster", t:"Health and quality of life development plan: from theory to practice", v:"Eur J Public Health 2023;33(Suppl 2)", doi:"10.1093/eurpub/ckad160.1672", au:"Carmezim Pereira S, Godinho Simões D, Durão J, Martinho J, Alho M, Pita Ferreira P, Sequeira R, Sousa P, Campos Fernandes A"},
+  {y:2022, k:"abstract", first:true, fmt:"oral", t:"Real-time classification of causes of death using Artificial Intelligence: sensitivity analysis", v:"Eur J Public Health 2022;32(Suppl 3)", doi:"10.1093/eurpub/ckac129.574", au:"Pita Ferreira P, Godinho Simões D, Pinto de Carvalho C, Duarte F, Fernandes E, Casaca P, Loff J, Soares AP, Pinto Leite P, Peralta-Santos A"},
+  {y:2022, k:"abstract", fmt:"oral", t:"The Health and Quality of Life Development Plan as a policy advisory tool for municipalities", v:"Eur J Public Health 2022;32(Suppl 3)", doi:"10.1093/eurpub/ckac129.474", au:"Sequeira R, Pita Ferreira P, Carmezim Pereira S, Quinaz Romana G, Campos Fernandes A, Sousa P"},
+  {y:2022, k:"abstract", fmt:"poster", t:"Impact of COVID-19 pandemic on population-based cancer screening: Interrupted Time Series Analysis", v:"Eur J Public Health 2022;32(Suppl 3)", doi:"10.1093/eurpub/ckac131.081", au:"Godinho Simões D, Pita Ferreira P, Pinto de Carvalho C, Pinto Leite P, Peralta-Santos A"},
+  {y:2022, k:"preprint", t:"SARS-CoV-2 BA.5 vaccine breakthrough risk and severity compared with BA.2: a case-case and cohort study using Electronic Health Records in Portugal", v:"medRxiv", doi:"10.1101/2022.07.25.22277996", au:BA5_AU.replace("Fonte A, ","").replace("Medeiros Borges C, ","")},
+  {y:2022, k:"preprint", t:"Comparative COVID-19 Vaccines Effectiveness in Preventing Infections, Hospitalizations, and Deaths with SARS-CoV-2 BA.5 and BA.2 Omicron Lineages", v:"SSRN", doi:"10.2139/ssrn.4180482", au:BA5_AU},
+  {y:2021, k:"abstract", first:true, fmt:"poster", t:"COVID-19 Dashboard for the Lisbon Region: an advisory tool for policy", v:"Eur J Public Health 2021;31(Suppl 3)", doi:"10.1093/eurpub/ckab165.652", au:"Pita Ferreira P, Martins R, Tavares DP, Valente J"}
+];
+var PL = {
+  article:{en:"Article", pt:"Artigo"}, letter:{en:"Letter", pt:"Carta"}, abstract:{en:"Abstract", pt:"Resumo"}, preprint:{en:"Preprint", pt:"Preprint"},
+  first:{en:"First author", pt:"Primeira autora"}, award:{en:"Francisco George Award", pt:"Prémio Francisco George"},
+  oral:{en:"Oral presentation", pt:"Comunicação oral"}, poster:{en:"Poster", pt:"Poster"},
+  more:{en:"more", pt:"mais"}, less:{en:"show fewer", pt:"mostrar menos"},
+  none:{en:"No publications match that search.", pt:"Nenhuma publicação corresponde à pesquisa."},
+  search:{en:"Search, e.g. hepatitis, AI, COVID", pt:"Pesquisar, p. ex. hepatite, IA, COVID"}
+};
+var list = document.getElementById("publist");
+var search = document.getElementById("pub-search");
+var fbtns = document.querySelectorAll(".filters button");
+var filter = "all";
+var openAu = {};
+function norm(s){ return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
+function matchF(p, f){ return f === "all" || (f === "first" ? p.first : p.k === f); }
+fbtns.forEach(function(b){
+  var f = b.getAttribute("data-f");
+  b.querySelector(".n").textContent = pubs.filter(function(p){ return matchF(p, f); }).length;
+  b.addEventListener("click", function(){
+    filter = f;
+    fbtns.forEach(function(x){ x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+    renderPubs();
+  });
+});
+function authors(p, i){
+  var arr = p.au.split(", ");
+  var hl = function(a){ return a === "Pita Ferreira P" ? "<b>" + a + "</b>" : esc(a); };
+  if(arr.length <= 8 || openAu[i]) {
+    var s = arr.map(hl).join(", ");
+    if(arr.length > 8) s += ' <button type="button" class="au-toggle" data-i="' + i + '">' + T(PL.less) + '</button>';
+    return s;
+  }
+  var me = arr.indexOf("Pita Ferreira P");
+  var shown = arr.slice(0, 6);
+  var extra = "";
+  if(me >= 6){ extra = ", … " + hl(arr[me]); }
+  var hidden = arr.length - 6 - (me >= 6 ? 1 : 0);
+  return shown.map(hl).join(", ") + extra + ', <button type="button" class="au-toggle" data-i="' + i + '">+' + hidden + " " + T(PL.more) + '</button>';
+}
+function renderPubs(){
+  search.placeholder = T(PL.search);
+  var q = norm(search.value.trim());
+  var idx = [];
+  pubs.forEach(function(p, i){
+    if(matchF(p, filter) && (!q || norm(p.t + " " + p.v + " " + p.au + " " + p.y).indexOf(q) >= 0)) idx.push(i);
+  });
+  if(!idx.length){ list.innerHTML = '<p class="empty">' + T(PL.none) + '</p>'; return; }
+  var years = [];
+  idx.forEach(function(i){ if(years.indexOf(pubs[i].y) < 0) years.push(pubs[i].y); });
+  list.innerHTML = years.map(function(y){
+    return '<div class="pubyear"><span class="y">' + y + '</span><ul>' + idx.filter(function(i){ return pubs[i].y === y; }).map(function(i){
+      var p = pubs[i];
+      var src = esc(p.v);
+      if(p.k === "preprint") src += " (" + T(PL.preprint).toLowerCase() + ")";
+      if(p.letter) src += " (" + T(PL.letter).toLowerCase() + ")";
+      if(p.fmt) src += ". " + T(PL[p.fmt]) + ", " + esc(T(EPH[p.y]));
+      var meta = '<span>' + src + '</span>';
+      if(p.first) meta += '<span class="tag tag-first">' + T(PL.first) + '</span>';
+      if(p.award) meta += '<span class="tag tag-award">' + T(PL.award) + '</span>';
+      meta += '<a class="doi" href="https://doi.org/' + p.doi + '">doi:' + p.doi + '</a>';
+      return '<li class="pub"><a class="t" href="https://doi.org/' + p.doi + '">' + esc(p.t) + '</a><span class="au">' + authors(p, i) + '</span><span class="v">' + meta + '</span></li>';
+    }).join("") + '</ul></div>';
+  }).join("");
+}
+list.addEventListener("click", function(e){
+  var b = e.target.closest(".au-toggle"); if(!b) return;
+  var i = b.getAttribute("data-i"); openAu[i] = !openAu[i]; renderPubs();
+});
+search.addEventListener("input", renderPubs);
+
+/* ---------- talks ---------- */
+var TY = {
+  oral:{en:"Oral", pt:"Oral"}, poster:{en:"Poster", pt:"Poster"}, panel:{en:"Panel", pt:"Painel"}, chair:{en:"Chair", pt:"Moderação"},
+  mod:{en:"Moderator", pt:"Moderação"}, pecha:{en:"PechaKucha", pt:"PechaKucha"}, seminar:{en:"Seminar", pt:"Seminário"},
+  talk:{en:"Talk", pt:"Apresentação"}, invited:{en:"Invited talk", pt:"Convite"},
+  lecture:{en:"Guest lecture", pt:"Aula convidada"}, webinar:{en:"Webinar speaker", pt:"Oradora em webinar"}
+};
+var BILBAO = {en:"European Public Health Conference 2026, Bilbao", pt:"European Public Health Conference 2026, Bilbau"};
+var talks = [
+  {d:"2026-11-13", ty:"seminar", eu:"https://ephconference.eu/bilbao-2026/", t:"Defining AI literacy for public health: a participatory competency co-creation exercise", e:{en:"Skills-building seminar I co-chair and present, "+BILBAO.en, pt:"Seminário de capacitação que co-modero e apresento, "+BILBAO.pt}},
+  {d:"2026-11-12", ty:"pecha", eu:"https://ephconference.eu/bilbao-2026/", t:"AI for health services research: building skills for the responsible use of large language models", e:BILBAO},
+  {d:"2026-11-11", ty:"oral", eu:"https://ephconference.eu/bilbao-2026/", t:"Meaningful public involvement in inclusive medical AI research: a multi-phase case study", e:{en:"Session “Trustworthy AI and digital health governance”, "+BILBAO.en, pt:"Sessão “Trustworthy AI and digital health governance”, "+BILBAO.pt}},
+  {d:"2026-11-11", ty:"poster", eu:"https://ephconference.eu/bilbao-2026/", t:"The ELSA Way: A community-driven knowledge platform for responsible medical AI", e:BILBAO},
+  {d:"2026-11-11", ty:"chair", eu:"https://ephconference.eu/bilbao-2026/", t:"Climate change, migration and health: the recognition of climate migrant status", e:BILBAO},
+  {d:"2026-09-30", ty:"panel", eu:"https://www.eur.nl/en/events/ai-hype-hope-and-humanity-festival-2026-09-30", t:"The ELSA Way: a community-driven knowledge platform for responsible AI", e:{en:"Panel “Different ELSA methods for Responsible AI in action”, AI Hype, Hope and Humanity (AI HHH) Festival, Rotterdam", pt:"Painel “Different ELSA methods for Responsible AI in action”, AI Hype, Hope and Humanity (AI HHH) Festival, Roterdão"}},
+  {d:"2026-09-23", ty:"mod", eu:"https://eupha.org/events/do-we-have-the-skills-to-play-by-the-rules-ai-literacy-and-training-in-public-health/", t:"Do we have the skills to play by the rules? AI literacy and training in public health", e:{en:"EUPHA webinar, Digital Health and AI Section, co-moderated with Aldo Gorga", pt:"Webinar da EUPHA, Secção de Saúde Digital e IA, co-moderado com Aldo Gorga"}, u:"https://eupha.org/events/do-we-have-the-skills-to-play-by-the-rules-ai-literacy-and-training-in-public-health/"},
+  {d:"2026-06-25", ty:"oral", t:"The ELSA Way", e:{en:"PRECISION Research Day 2026, UMCG, Groningen", pt:"PRECISION Research Day 2026, UMCG, Groningen"}},
+  {d:"2026-05-21", ty:"talk", t:"The ELSA Way", e:{en:"ELSA Inside meeting", pt:"Reunião ELSA Inside"}},
+  {d:"2026-03-25", ty:"lecture", t:"Inteligência artificial em saúde: panaceia, risco ou benefício? O papel da Epidemiologia na distinção", e:{en:"Public Health Specialisation Course, NOVA National School of Public Health, Lisbon", pt:"Curso de Especialização em Saúde Pública, Escola Nacional de Saúde Pública, Universidade NOVA de Lisboa"}},
+  {d:"2025-11-13", mo:true, ty:"oral", t:"The need for an AI regulatory sandbox in health: lessons from a simulation exercise in a hospital", e:EPH[2025]},
+  {d:"2025-11-13", mo:true, ty:"poster", t:"Advancing health equity through inclusive medical AI: findings from an interdisciplinary workshop", e:EPH[2025]},
+  {d:"2025-10-14", ty:"talk", t:"Co-creating inclusive medical AI: exploring requirements and solutions", e:{en:"DASH Connect x ELSA: Medical AI & Inclusivity, Groningen, with Lisa Ballard", pt:"DASH Connect x ELSA: Medical AI & Inclusivity, Groningen, com Lisa Ballard"}, u:"https://research.rug.nl/en/activities/co-creating-inclusive-medical-ai-exploring-requirements-and-solut/"},
+  {d:"2025-09-12", ty:"lecture", t:"Governação e Implementação de Inteligência Artificial na saúde", e:{en:"Masterclass, Data Science in Public Health course, NOVA National School of Public Health, Lisbon", pt:"Masterclass, curso de Ciência de Dados em Saúde Pública, Escola Nacional de Saúde Pública, Universidade NOVA de Lisboa"}},
+  {d:"2025-08-26", mo:true, ty:"oral", eu:"https://2025.ehps.net/", t:"Co-creating inclusive medical AI: exploring requirements and solutions", e:{en:"39th Annual Conference of the European Health Psychology Society (EHPS 2025), Groningen", pt:"39.ª Conferência Anual da European Health Psychology Society (EHPS 2025), Groningen"}},
+  {d:"2025-06-17", ty:"talk", t:"The need for an AI regulatory sandbox in health: collaboration lessons from a simulation in the UMCG", e:{en:"ELSA Lab Network Event, theme collaboration", pt:"ELSA Lab Network Event, tema colaboração"}, u:"https://research.rug.nl/en/activities/the-need-for-an-ai-regulatory-sandbox-ai-rs-in-health-collaborati/"},
+  {d:"2025-05-15", ty:"lecture", t:"Inteligência artificial em saúde: panaceia, risco ou benefício? O papel da Epidemiologia na distinção", e:{en:"Public Health Specialisation Course, NOVA National School of Public Health, Lisbon", pt:"Curso de Especialização em Saúde Pública, Escola Nacional de Saúde Pública, Universidade NOVA de Lisboa"}},
+  {d:"2025-05-01", ty:"webinar", t:"Vaccine hesitancy", e:{en:"Joint webinar of EUPHAnxt and IPSF EuRO, the European office of the International Pharmaceutical Students' Federation", pt:"Webinar conjunto da EUPHAnxt e da IPSF EuRO, o gabinete europeu da International Pharmaceutical Students' Federation"}},
+  {d:"2025-02-06", ty:"invited", t:"Public health outside the box: a path in academia", e:{en:"INSPIRA 2025, introduction to public health for new residents, Portuguese National Association of Public Health Physicians (ANMSP)", pt:"INSPIRA 2025, introdução à Saúde Pública para novos internos, Associação Nacional dos Médicos de Saúde Pública (ANMSP)"}}
+];
+var before = [
+  {g:{en:"European Public Health Conferences", pt:"European Public Health Conferences"}, desc:{en:"Two oral communications and four posters, 2021 to 2023.", pt:"Duas comunicações orais e quatro posters, de 2021 a 2023."}, items:[
+    {d:"2023-11", ty:"poster", t:"Project Hep-ØN: A comprehensive approach to reduce chronic viral hepatitis in Portugal", e:EPH[2023]},
+    {d:"2023-11", ty:"poster", t:"Health and quality of life development plan: from theory to practice", e:EPH[2023]},
+    {d:"2022-11", ty:"oral", t:"Real-time classification of causes of death using Artificial Intelligence: sensitivity analysis", e:EPH[2022]},
+    {d:"2022-11", ty:"oral", t:"The Health and Quality of Life Development Plan as a policy advisory tool for municipalities", e:EPH[2022]},
+    {d:"2022-11", ty:"poster", t:"Impact of COVID-19 pandemic on population-based cancer screening: Interrupted Time Series Analysis", e:EPH[2022]},
+    {d:"2021-11", ty:"poster", t:"COVID-19 Dashboard for the Lisbon Region: an advisory tool for policy", e:EPH[2021]}
+  ]},
+  {g:{en:"Other international meetings", pt:"Outras reuniões internacionais"}, desc:{en:"Urban health, epidemiology and the European Public Health Week.", pt:"Saúde urbana, epidemiologia e a European Public Health Week."}, items:[
+    {d:"2023-09", ty:"oral", t:"Metodologia Lean aplicada a um centro de rastreio comunitário: uma experiência de gestão eficiente", e:{en:"XLI Meeting of the Spanish Society of Epidemiology and XVIII Congress of the Portuguese Association of Epidemiology", pt:"XLI Reunião da Sociedade Espanhola de Epidemiologia e XVIII Congresso da Associação Portuguesa de Epidemiologia"}},
+    {d:"2022-10", ty:"oral", t:"Addressing cardiovascular population health and health equity in urban environments", e:{en:"18th International Conference on Urban Health", pt:"18th International Conference on Urban Health"}},
+    {d:"2022-05", ty:"talk", t:"EPH Fellowship: sharing the conference experience", e:{en:"European Public Health Week 2022", pt:"European Public Health Week 2022"}}
+  ]},
+  {g:{en:"Portuguese congresses", pt:"Congressos em Portugal"}, desc:{en:"Public health, family medicine, hospital management and geography meetings.", pt:"Reuniões de saúde pública, medicina geral e familiar, administração hospitalar e geografia."}, items:[
+    {d:"2023-11", ty:"oral", t:"Projeto Hep-ØN: Uma Abordagem Compreensiva para Reduzir as Hepatites Virais Crónicas em Portugal", e:{en:"APMGF Study Groups Meeting. Best oral communication.", pt:"Encontro de Grupos de Estudo da APMGF. Melhor comunicação oral."}},
+    {d:"2023-10", ty:"poster", t:"Hep-ØN: Micro-eliminação das Hepatites Virais no Oeste Norte", e:{en:"IV National Congress of Public Health Physicians (ANMSP)", pt:"IV Congresso Nacional dos Médicos de Saúde Pública (ANMSP)"}},
+    {d:"2023-10", ty:"poster", t:"Surto de Hepatite A ligado a um caso importado, em contexto pré-escolar, Caldas da Rainha", e:{en:"IV National Congress of Public Health Physicians (ANMSP)", pt:"IV Congresso Nacional dos Médicos de Saúde Pública (ANMSP)"}},
+    {d:"2023-10", ty:"poster", t:"Análise espacial dos determinantes de hesitação vacinal na COVID-19 em Portugal", e:{en:"IV National Congress of Public Health Physicians (ANMSP)", pt:"IV Congresso Nacional dos Médicos de Saúde Pública (ANMSP)"}},
+    {d:"2023-06", ty:"poster", t:"Data-driven Tools on Cardiovascular Health Equity Improvement: Stakeholder Standpoint in Lisbon", e:{en:"Congresso Saúde Pública 23, Portuguese Society of Public Health", pt:"Congresso Saúde Pública 23, Sociedade Portuguesa de Saúde Pública"}},
+    {d:"2022-11", ty:"oral", t:"Formação em Saúde Pública: que currículo para uma força de trabalho em Saúde Pública de presente e futuro", e:{en:"III National Congress of Public Health Physicians (ANMSP), on behalf of all residents' commissions", pt:"III Congresso Nacional dos Médicos de Saúde Pública (ANMSP), em representação de todas as CMISP"}},
+    {d:"2022-11", ty:"poster", t:"Classificação em tempo real de causas de morte com Inteligência Artificial: análise de sensibilidade", e:{en:"III National Congress of Public Health Physicians (ANMSP)", pt:"III Congresso Nacional dos Médicos de Saúde Pública (ANMSP)"}},
+    {d:"2022-11", ty:"poster", t:"Barómetro da Saúde Digital: da adoção da Telessaúde e Inteligência Artificial", e:{en:"III National Congress of Public Health Physicians (ANMSP)", pt:"III Congresso Nacional dos Médicos de Saúde Pública (ANMSP)"}},
+    {d:"2022-09", ty:"oral", t:"Plano de Desenvolvimento em Saúde e Qualidade de Vida: um guia para a identificação de prioridades em saúde para os municípios portugueses", e:{en:"GeoSaúde, Institute of Geography and Spatial Planning, University of Lisbon", pt:"GeoSaúde, Instituto de Geografia e Ordenamento do Território"}},
+    {d:"2022-05", ty:"oral", t:"Barómetro da Saúde Digital", e:{en:"10th APAH Value Conference", pt:"10.ª Conferência de Valor APAH"}},
+    {d:"2022-04", ty:"talk", t:"Digital healthcare: COVID-19 from adoption trigger to inequality booster", e:{en:"Future Public Health Summit, NOVA National School of Public Health", pt:"Future Public Health Summit, Escola Nacional de Saúde Pública"}},
+    {d:"2021-11", ty:"poster", t:"Conhecer para melhor intervir: contributos para os municípios na descentralização em Saúde", e:{en:"II National Congress of Public Health Physicians (ANMSP)", pt:"II Congresso Nacional dos Médicos de Saúde Pública (ANMSP)"}},
+    {d:"2021-06", ty:"poster", t:"Dashboard Regional COVID-19: uma ferramenta de apoio à decisão em Saúde Pública", e:{en:"23rd National Congress of the Portuguese Medical Association", pt:"23.º Congresso Nacional da Ordem dos Médicos"}}
+  ]},
+  {g:{en:"Invited talks and webinars", pt:"Convites e webinars"}, desc:{en:"For health services, programmes and partners.", pt:"Para serviços de saúde, programas e parceiros."}, items:[
+    {d:"2024-01", ty:"invited", t:"Conclusões e reflexões finais: a perspetiva do Médico Interno de Saúde Pública para o SNS", e:{en:"A Essência do Serviço Nacional de Saúde, Óbidos", pt:"A Essência do Serviço Nacional de Saúde, Óbidos"}},
+    {d:"2023-06", ty:"invited", t:"Hepatites Virais: de mãos dadas a caminho da eliminação", e:{en:"Webinar of the National Programme for Viral Hepatitis", pt:"Webinar do Programa Nacional para as Hepatites Virais"}},
+    {d:"2023-06", ty:"invited", t:"O Projeto Hep-ØN: Um Compromisso do ACES Oeste Norte", e:{en:"World Hepatitis Day", pt:"Dia Mundial Contra as Hepatites"}},
+    {d:"2022-11", ty:"invited", t:"Resistência aos antibióticos: um problema de Saúde Pública", e:{en:"Webinar, Centro Hospitalar Universitário de Lisboa Central", pt:"Webinar do Centro Hospitalar Universitário de Lisboa Central"}},
+    {d:"2020-04", ty:"invited", t:"Prevenção e Contenção no Setor Alimentar", e:{en:"COVID-19 webinar, National Fruit and Vegetable Technology Centre (COTHN)", pt:"Webinar COVID-19 do Centro Operativo e Tecnológico Hortofrutícola Nacional"}}
+  ]}
+];
+function talkLi(x, wide){
+  var evText = esc(T(x.e));
+  var ev = '<span class="ty">' + T(TY[x.ty]) + '.</span> ' + (x.eu ? '<a href="' + x.eu + '">' + evText + '</a>' : evText);
+  var ttl = x.u ? '<a class="tt" href="' + x.u + '">' + esc(x.t) + '</a>' : '<span class="tt">' + esc(x.t) + '</span>';
+  var when = x.d.length === 4 ? x.d : (x.d.length === 7 ? fmt(x.d + "-15", true) : (x.mo ? fmt(x.d, true) : fmt(x.d)));
+  return '<li><span class="when">' + when + '</span><span>' + ttl + '<span class="ev">' + ev + '</span></span></li>';
+}
+function isUpcoming(x){ return x.d.length === 10 && new Date(x.d + "T23:59:00") >= TODAY; }
+function renderTalks(){
+  var up = talks.filter(isUpcoming).sort(function(a,b){ return a.d < b.d ? -1 : 1; });
+  var past = talks.filter(function(x){ return !isUpcoming(x); });
+  document.getElementById("upcoming-wrap").hidden = !up.length;
+  document.getElementById("talks-upcoming").innerHTML = up.map(function(x){ return talkLi(x); }).join("");
+  var yrs = [];
+  past.forEach(function(x){ var y = x.d.slice(0,4); if(yrs.indexOf(y) < 0) yrs.push(y); });
+  document.getElementById("talks-phd").innerHTML = yrs.map(function(y){
+    return '<h2 class="year-h">' + y + '</h2><ul class="talks">' + past.filter(function(x){ return x.d.slice(0,4) === y; }).map(function(x){ return talkLi(x); }).join("") + '</ul>';
+  }).join("");
+  var openState = Array.prototype.map.call(document.querySelectorAll("#talks-before details"), function(d){ return d.open; });
+  document.getElementById("talks-before").innerHTML = before.map(function(g, gi){
+    return '<details class="group"' + (openState[gi] ? " open" : "") + '><summary><h3>' + esc(T(g.g)) + '</h3><span class="cnt">' + g.items.length + ' <svg class="chev icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span></summary><div class="inner"><p class="gdesc">' + esc(T(g.desc)) + '</p><ul class="talks">' + g.items.map(function(x){ return talkLi(x); }).join("") + '</ul></div></details>';
+  }).join("");
+  // home strip
+  document.getElementById("home-upcoming").innerHTML = up.slice(0,3).map(function(x){
+    return '<li><span class="d">' + fmt(x.d) + '</span><span>' + esc(x.t) + '<span class="e">' + (x.eu ? '<a href="' + x.eu + '" style="color:inherit">' + esc(T(x.e)) + '</a>' : esc(T(x.e))) + '</span></span></li>';
+  }).join("") || '<li><span class="d"></span><span class="e">' + (LANG === "pt" ? "Sem eventos agendados" : "Nothing scheduled") + '</span></li>';
+}
+
+/* ---------- static date labels ---------- */
+function renderDates(){ document.querySelectorAll("[data-date]").forEach(function(el){ el.textContent = fmt(el.getAttribute("data-date")); }); }
+
+/* ---------- counts ---------- */
+function renderCounts(){
+  var nTalks = talks.length + before.reduce(function(s,g){ return s + g.items.length; }, 0);
+  document.getElementById("toc-pubs").textContent = pubs.length + (LANG === "pt" ? " publicações" : " publications");
+  document.getElementById("toc-talks").textContent = nTalks + (LANG === "pt" ? " comunicações" : " talks and posters");
+  var nRoles = document.querySelectorAll("#act-list > li").length;
+  document.getElementById("toc-service").textContent = nRoles + (LANG === "pt" ? " cargos" : " roles");
+  var nAw = document.querySelectorAll("#award-list li").length;
+  document.getElementById("toc-awards").textContent = nAw + (LANG === "pt" ? (nAw === 1 ? " prémio" : " prémios") : (nAw === 1 ? " award" : " awards"));
+}
+
+/* ---------- routing ---------- */
+var pages = {};
+document.querySelectorAll(".page").forEach(function(p){ pages[p.getAttribute("data-page")] = p; });
+var menu = document.getElementById("menu");
+var menuBtn = document.getElementById("menu-btn");
+var pager = document.getElementById("pager");
+var current = "home";
+function route(){
+  var h = (location.hash || "#home").slice(1);
+  var anchor = null;
+  if(h === "research-elsaway"){ h = "research"; anchor = "research-elsaway-anchor"; }
+  return {page: pages[h] ? h : "home", anchor: anchor};
+}
+function show(r, fromNav){
+  current = r.page;
+  order.forEach(function(k){ pages[k].hidden = (k !== current); });
+  var p = pages[current];
+  p.classList.remove("enter"); void p.offsetWidth; p.classList.add("enter");
+  menu.querySelectorAll("a").forEach(function(a){
+    if(a.getAttribute("href") === "#" + current) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current");
+  });
+  renderPager();
+  document.title = current === "home" ? "Patrícia Pita Ferreira" : T(NAMES[current]) + ", Patrícia Pita Ferreira";
+  menu.classList.remove("open"); menuBtn.setAttribute("aria-expanded","false");
+  if(r.anchor === "research-elsaway-anchor"){ selectStep(document.getElementById("st-5")); }
+  if(r.anchor){ var el = document.getElementById(r.anchor); if(el) setTimeout(function(){ el.scrollIntoView({behavior:"smooth", block:"start"}); }, 60); }
+  else if(fromNav) window.scrollTo(0,0);
+}
+function renderPager(){
+  var i = order.indexOf(current);
+  if(current === "home"){ pager.hidden = true; return; }
+  var prev = order[i-1], next = order[i+1];
+  var L = LANG === "pt" ? {p:"Anterior", n:"Seguinte", b:"Voltar ao"} : {p:"Previous", n:"Next", b:"Back to"};
+  pager.innerHTML = '<a class="prev" href="#' + prev + '"><span>' + L.p + '</span><b>' + T(NAMES[prev]) + '</b></a>' +
+    (next ? '<a class="next" href="#' + next + '"><span>' + L.n + '</span><b>' + T(NAMES[next]) + '</b></a>' : '<a class="next" href="#home"><span>' + L.b + '</span><b>' + T(NAMES.home) + '</b></a>');
+  pager.hidden = false;
+}
+window.addEventListener("hashchange", function(){ show(route(), true); });
+menuBtn.addEventListener("click", function(){ var o = menu.classList.toggle("open"); menuBtn.setAttribute("aria-expanded", o ? "true" : "false"); });
+
+/* ---------- language ---------- */
+function setLang(l, save){
+  LANG = l;
+  app.className = "l-" + l;
+  document.documentElement.lang = l === "pt" ? "pt-PT" : "en";
+  document.querySelectorAll(".lang button").forEach(function(b){ b.setAttribute("aria-pressed", b.getAttribute("data-lang") === l ? "true" : "false"); });
+  document.querySelectorAll("[data-nav]").forEach(function(el){ el.textContent = T(NAMES[el.getAttribute("data-nav")]); });
+  renderLetter(); renderPubs(); renderTalks(); renderDates(); renderCounts(); renderPager();
+  document.title = current === "home" ? "Patrícia Pita Ferreira" : T(NAMES[current]) + ", Patrícia Pita Ferreira";
+  if(save){ try{ localStorage.setItem("ppf-lang", l); }catch(e){} }
+}
+document.querySelectorAll(".lang button").forEach(function(b){ b.addEventListener("click", function(){ setLang(b.getAttribute("data-lang"), true); }); });
+
+/* ---------- copy email ---------- */
+document.addEventListener("click", function(e){
+  var btn = e.target.closest(".copy"); if(!btn) return;
+  var el = document.getElementById(btn.getAttribute("data-target"));
+  var text = el.textContent.replace("(a)", "@");
+  var orig = btn.innerHTML;
+  function selectIt(){ var r = document.createRange(); r.selectNodeContents(el); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); }
+  try{
+    navigator.clipboard.writeText(text).then(function(){
+      btn.textContent = LANG === "pt" ? "Copiado" : "Copied";
+      setTimeout(function(){ btn.innerHTML = orig; }, 1600);
+    }, selectIt);
+  }catch(err){ selectIt(); }
+});
+
+/* ---------- start ---------- */
+var start = "en";
+try{ var s = localStorage.getItem("ppf-lang"); if(s === "pt" || s === "en") start = s; else if((navigator.language || "").toLowerCase().indexOf("pt") === 0) start = "pt"; }catch(e){}
+setLang(start, false);
+show(route(), false);
+})();
+</script>
+
+</body>
+</html>
