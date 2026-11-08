@@ -79,7 +79,7 @@ input{caret-color:var(--accent)}
 .mark img{width:32px; height:32px; border-radius:50%; object-fit:cover; object-position:50% 25%; flex:none}
 .mark b{font-family:var(--serif); font-weight:500; font-size:20px; white-space:nowrap}
 .menu{display:flex; gap:0; flex-wrap:nowrap; justify-content:flex-end; margin:0; padding:0; list-style:none}
-.menu a{display:block; color:var(--muted); text-decoration:none; font-size:16.5px; font-weight:500; padding:6px 9px; white-space:nowrap; border-bottom:2px solid transparent}
+.menu a{display:block; color:var(--muted); text-decoration:none; font-size:16px; font-weight:500; padding:6px 7px; white-space:nowrap; border-bottom:2px solid transparent}
 .menu a:hover{color:var(--ink)}
 .menu a[aria-current="page"]{color:var(--ink); border-bottom-color:var(--accent)}
 .lang{display:flex; border:1px solid var(--rule); border-radius:4px; overflow:hidden; flex:none}
@@ -282,12 +282,15 @@ details.group p.gdesc{font-size:16px; color:var(--muted); margin:0 0 6px}
 .log .when{font-size:16px; color:var(--muted); font-variant-numeric:tabular-nums; font-weight:500; padding-top:2px}
 .log .what strong{display:block; font-weight:700; line-height:1.4}
 .log .what span{display:block; color:var(--muted); font-size:17px; line-height:1.5; margin-top:2px}
+.log .what strong span{color:inherit; font-size:inherit; line-height:inherit; margin-top:0}
 .log .what a{font-size:16px; display:inline-block; margin-top:2px}
 .skills{display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:40px}
 .skills h3{font-size:22px; margin-bottom:8px}
 .tags{margin:0; padding:0; list-style:none; color:var(--ink); line-height:1.6}
 .tags li{display:inline; font-size:17px}
 .tags li:not(:last-child)::after{content:", "; color:var(--muted)}
+.era{font-family:var(--sans); font-size:14px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin:28px 0 0}
+h2 + .era{margin-top:10px}
 .simple{list-style:none; margin:10px 0 0; padding:0}
 .simple li{padding:12px 0; border-top:1px solid var(--rule); font-size:17px; line-height:1.5}
 .simple li:first-child{border-top:0}
@@ -330,7 +333,7 @@ footer{border-top:1px solid var(--rule); padding-block:24px 36px; margin-top:24p
   .lang button{min-width:44px}
   .menu a{padding-block:12px}
 }
-@media (max-width:1100px){
+@media (max-width:1240px){
   .menu-btn{display:block}
   .menu{display:none; position:absolute; left:-20px; right:-20px; top:100%; flex-direction:column; background:var(--bg); border-bottom:1px solid var(--rule); padding:8px 20px 16px}
   .menu.open{display:flex}
@@ -386,6 +389,7 @@ footer{border-top:1px solid var(--rule); padding-block:24px 36px; margin-top:24p
       <li><a href="#publications" data-nav="publications"></a></li>
       <li><a href="#talks" data-nav="talks"></a></li>
       <li><a href="#experience" data-nav="experience"></a></li>
+      <li><a href="#courses" data-nav="courses"></a></li>
       <li><a href="#service" data-nav="service"></a></li>
       <li><a href="#awards" data-nav="awards"></a></li>
       <li><a href="#contact" data-nav="contact"></a></li>
@@ -464,7 +468,8 @@ footer{border-top:1px solid var(--rule); padding-block:24px 36px; margin-top:24p
       <li><a href="#research"><span class="c-name" data-nav="research"></span><span class="c-desc"><span class="en">My PhD in five chapters: inclusion, participation, collaboration, regulatory sandboxes and The ELSA Way.</span><span class="pt">O doutoramento em cinco capítulos: inclusão, participação, colaboração, sandboxes regulatórias e The ELSA Way.</span></span><span class="c-meta"><span class="en">5 chapters</span><span class="pt">5 capítulos</span></span></a></li>
       <li><a href="#publications"><span class="c-name" data-nav="publications"></span><span class="c-desc"><span class="en">Articles, abstracts and preprints, with authors and links.</span><span class="pt">Artigos, resumos e preprints, com autores e ligações.</span></span><span class="c-meta" id="toc-pubs"></span></a></li>
       <li><a href="#talks"><span class="c-name" data-nav="talks"></span><span class="c-desc"><span class="en">Conferences, panels, webinars, lectures and invited talks.</span><span class="pt">Congressos, painéis, webinars, aulas e convites.</span></span><span class="c-meta" id="toc-talks"></span></a></li>
-      <li><a href="#experience"><span class="c-name" data-nav="experience"></span><span class="c-desc"><span class="en">Earlier projects, experience, education, skills and teaching.</span><span class="pt">Projetos anteriores, experiência, formação, competências e docência.</span></span><span class="c-meta"><span class="en">Since 2012</span><span class="pt">Desde 2012</span></span></a></li>
+      <li><a href="#experience"><span class="c-name" data-nav="experience"></span><span class="c-desc"><span class="en">Experience, education, skills and teaching, during and before the PhD.</span><span class="pt">Experiência, formação, competências e docência, durante e antes do doutoramento.</span></span><span class="c-meta"><span class="en">Since 2012</span><span class="pt">Desde 2012</span></span></a></li>
+      <li><a href="#courses"><span class="c-name" data-nav="courses"></span><span class="c-desc"><span class="en">Courses, workshops and symposia, during and before the PhD.</span><span class="pt">Cursos, workshops e simpósios, durante e antes do doutoramento.</span></span><span class="c-meta" id="toc-courses"></span></a></li>
       <li><a href="#service"><span class="c-name" data-nav="service"></span><span class="c-desc"><span class="en">EUPHAnxt, mentoring, organising and memberships.</span><span class="pt">EUPHAnxt, mentoria, organização de eventos e associações.</span></span><span class="c-meta" id="toc-service"></span></a></li>
       <li><a href="#awards"><span class="c-name" data-nav="awards"></span><span class="c-desc"><span class="en">Prizes for my public health work.</span><span class="pt">Prémios pelo meu trabalho em saúde pública.</span></span><span class="c-meta" id="toc-awards"></span></a></li>
       <li><a href="#contact"><span class="c-name" data-nav="contact"></span><span class="c-desc"><span class="en">Email and profiles.</span><span class="pt">Email e perfis.</span></span><span class="c-meta"></span></a></li>
@@ -633,9 +638,13 @@ footer{border-top:1px solid var(--rule); padding-block:24px 36px; margin-top:24p
   <div class="two">
     <div>
       <h2><span class="en">Experience</span><span class="pt">Experiência</span></h2>
+      <h3 class="era"><span class="en">During the PhD</span><span class="pt">Durante o doutoramento</span></h3>
       <ul class="log">
         <li><span class="when"><span class="en">2024 – now</span><span class="pt">2024 – atual</span></span><span class="what"><strong><span class="en">PhD candidate</span><span class="pt">Doutoranda</span></strong><span>ELSA AI Lab Northern Netherlands, University Medical Center Groningen</span></span></li>
         <li><span class="when"><span class="en">2024 – now</span><span class="pt">2024 – atual</span></span><span class="what"><strong><span class="en">National Programme for Viral Hepatitis</span><span class="pt">Programa Nacional para as Hepatites Virais</span></strong><span><span class="en">Directorate-General of Health, Portugal. Public health specialist designated to support the Programme Director, for a three-year term from June 2024.</span><span class="pt">Direção-Geral da Saúde. Médica especialista em Saúde Pública designada para coadjuvar o Diretor do Programa, por um mandato de três anos desde junho de 2024.</span></span><a href="https://diariodarepublica.pt/dr/detalhe/despacho/9610-2026-1153221765">Despacho n.º 9610/2026</a></span></li>
+      </ul>
+      <h3 class="era"><span class="en">Before the PhD</span><span class="pt">Antes do doutoramento</span></h3>
+      <ul class="log">
         <li><span class="when">2022 – 2024</span><span class="what"><strong><span class="en">Consultant and researcher</span><span class="pt">Consultora e investigadora</span></strong><span><span class="en">Directorate-General of Health, Portugal. Viral hepatitis, vaccination, COVID-19 surveillance, health data analytics and AI. National collaborator for ECDC's chronic hepatitis sentinel surveillance.</span><span class="pt">Direção-Geral da Saúde. Hepatites virais, vacinação, vigilância da COVID-19, análise de dados em saúde e IA. Colaboradora nacional na vigilância sentinela das hepatites crónicas do ECDC.</span></span></span></li>
         <li><span class="when">2020 – 2023</span><span class="what"><strong><span class="en">Public health resident</span><span class="pt">Médica interna de Saúde Pública</span></strong><span><span class="en">Public Health Unit Zé Povinho, ACES Oeste Norte, with training placements at the Directorate-General of Health and the NOVA National School of Public Health. Specialist title in 2024.</span><span class="pt">Unidade de Saúde Pública Zé Povinho, ACES Oeste Norte, com estágios na Direção-Geral da Saúde e na Escola Nacional de Saúde Pública. Título de especialista em 2024.</span></span></span></li>
         <li><span class="when">2021 – 2023</span><span class="what"><strong><span class="en">Consultant and researcher</span><span class="pt">Consultora e investigadora</span></strong><span><span class="en">NOVA National School of Public Health. Municipal health planning, AI4Healthy Cities Lisbon and the Digital Health Barometer.</span><span class="pt">Escola Nacional de Saúde Pública, Universidade NOVA de Lisboa. Planeamento municipal em saúde, AI4Healthy Cities Lisboa e Barómetro da Saúde Digital.</span></span></span></li>
@@ -645,8 +654,12 @@ footer{border-top:1px solid var(--rule); padding-block:24px 36px; margin-top:24p
     </div>
     <div>
       <h2><span class="en">Education</span><span class="pt">Formação académica</span></h2>
+      <h3 class="era"><span class="en">During the PhD</span><span class="pt">Durante o doutoramento</span></h3>
       <ul class="log">
         <li><span class="when"><span class="en">2024 – now</span><span class="pt">2024 – atual</span></span><span class="what"><strong><span class="en">PhD, Responsible AI in Health</span><span class="pt">Doutoramento, IA Responsável na Saúde</span></strong><span>Graduate School of Medical Sciences, University of Groningen</span></span></li>
+      </ul>
+      <h3 class="era"><span class="en">Before the PhD</span><span class="pt">Antes do doutoramento</span></h3>
+      <ul class="log">
         <li><span class="when">2022 – 2023</span><span class="what"><strong><span class="en">MPH, Master's in Public Health</span><span class="pt">Mestrado em Saúde Pública</span></strong><span><span class="en">NOVA National School of Public Health, Lisbon</span><span class="pt">Escola Nacional de Saúde Pública, Universidade NOVA de Lisboa</span></span></span></li>
         <li><span class="when">2021</span><span class="what"><strong><span class="en">Public Health Specialisation Course</span><span class="pt">Curso de Especialização em Saúde Pública</span></strong><span><span class="en">NOVA National School of Public Health</span><span class="pt">Escola Nacional de Saúde Pública</span></span></span></li>
         <li><span class="when">2021 – 2022</span><span class="what"><strong><span class="en">Postgraduate, Information Management and Business Intelligence in Healthcare</span><span class="pt">Pós-graduação em Gestão de Informação e Business Intelligence na Saúde</span></strong><span>NOVA Information Management School</span></span></li>
@@ -668,44 +681,89 @@ footer{border-top:1px solid var(--rule); padding-block:24px 36px; margin-top:24p
       </ul></div>
       <div><h3><span class="en">Tools and languages</span><span class="pt">Ferramentas e línguas</span></h3><ul class="tags">
         <li>R</li><li>Python</li><li>SQL</li><li>Power BI</li><li>Power Automate</li><li>QualCoder</li><li>ATLAS.ti</li><li>Adobe Creative Suite</li>
-        <li><span class="en">Portuguese (native)</span><span class="pt">Português (nativo)</span></li><li><span class="en">English (Cambridge CAE)</span><span class="pt">Inglês (Cambridge CAE)</span></li><li><span class="en">Spanish</span><span class="pt">Espanhol</span></li><li><span class="en">Basic French, Italian, Dutch</span><span class="pt">Francês, italiano e neerlandês básicos</span></li>
+        <li><span class="en">Portuguese (native)</span><span class="pt">Português (nativo)</span></li><li><span class="en">English (Cambridge CAE)</span><span class="pt">Inglês (Cambridge CAE)</span></li><li><span class="en">Spanish</span><span class="pt">Espanhol</span></li><li><span class="en">Dutch (A2)</span><span class="pt">Neerlandês (A2)</span></li><li><span class="en">Basic French and Italian</span><span class="pt">Francês e italiano básicos</span></li>
       </ul></div>
     </div>
   </div>
 
-  <div class="block two">
-    <div>
-      <h2><span class="en">Teaching and training</span><span class="pt">Docência e formação</span></h2>
-      <ul class="simple">
-        <li><span class="en">Guest lectures on AI in health and the role of epidemiology, Public Health Specialisation Course, NOVA National School of Public Health</span><span class="pt">Aulas convidadas sobre IA em saúde e o papel da Epidemiologia, Curso de Especialização em Saúde Pública, ENSP</span> <span class="yr">2022, 2023, 2025, 2026</span></li>
+  <div class="block">
+    <h2><span class="en">Teaching and training</span><span class="pt">Docência e formação</span></h2>
+    <p class="muted"><span class="en">Courses I have taken are on the <a href="#courses">Courses</a> page.</span><span class="pt">Os cursos que frequentei estão na página <a href="#courses">Cursos</a>.</span></p>
+    <div class="two">
+      <div>
+        <h3 class="era"><span class="en">During the PhD</span><span class="pt">Durante o doutoramento</span></h3>
+        <ul class="simple">
+        <li><span class="en">Guest lectures on AI in health and the role of epidemiology, Public Health Specialisation Course, NOVA National School of Public Health</span><span class="pt">Aulas convidadas sobre IA em saúde e o papel da Epidemiologia, Curso de Especialização em Saúde Pública, ENSP</span> <span class="yr">2025, 2026</span></li>
         <li><span class="en">Masterclass on the governance and implementation of AI in health, Data Science in Public Health course, NOVA National School of Public Health</span><span class="pt">Masterclass sobre governação e implementação de IA na saúde, curso de Ciência de Dados em Saúde Pública, ENSP</span> <span class="yr">2025</span></li>
+        <li><span class="en">Organiser, Summer School Data Science and AI in Health, University of Groningen</span><span class="pt">Organização da Summer School Data Science and AI in Health, Universidade de Groningen</span> <span class="yr">2025</span></li>
         <li><span class="en">Talk for new public health residents on an academic career path, INSPIRA, ANMSP</span><span class="pt">Sessão para novos internos de Saúde Pública sobre o percurso académico, INSPIRA, ANMSP</span> <span class="yr">2025</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="era"><span class="en">Before the PhD</span><span class="pt">Antes do doutoramento</span></h3>
+        <ul class="simple">
+        <li><span class="en">Guest lectures on AI in health and the role of epidemiology, Public Health Specialisation Course, NOVA National School of Public Health</span><span class="pt">Aulas convidadas sobre IA em saúde e o papel da Epidemiologia, Curso de Especialização em Saúde Pública, ENSP</span> <span class="yr">2022, 2023</span></li>
         <li><span class="en">Environmental health practice for medical students, University of Lisbon</span><span class="pt">Práticas em Saúde Ambiental para estudantes de Medicina, FMUL</span> <span class="yr">2023</span></li>
         <li><span class="en">“Numbers and public health” for psychology students, Universidade Católica Portuguesa</span><span class="pt">“Os Números e a Saúde Pública” para estudantes de Psicologia, UCP</span> <span class="yr">2023</span></li>
         <li><span class="en">Training for primary care teams across Oeste Norte on chronic viral hepatitis and surveillance</span><span class="pt">Formação às equipas de cuidados de saúde primários do Oeste Norte sobre hepatites virais crónicas e vigilância</span> <span class="yr">2023</span></li>
         <li><span class="en">Training for primary and secondary school teachers on COVID-19 and on the use of AI</span><span class="pt">Formação para professores do ensino básico e secundário sobre COVID-19 e sobre a utilização de IA</span></li>
         <li><span class="en">COVID-19 training for health workers, schools, businesses, restaurants, farming and civil protection</span><span class="pt">Formação sobre COVID-19 para profissionais de saúde, escolas, empresas, restauração, setor agrícola e proteção civil</span> <span class="yr">2020 – 2021</span></li>
-        <li><span class="en">Organiser, Summer School Data Science and AI in Health, University of Groningen</span><span class="pt">Organização da Summer School Data Science and AI in Health, Universidade de Groningen</span> <span class="yr">2025</span></li>
         <li><span class="en">Certified trainer (Certificate of Pedagogical Competences)</span><span class="pt">Formadora certificada (Certificado de Competências Pedagógicas)</span> <span class="yr">2020</span></li>
-      </ul>
-    </div>
-    <div>
-      <h2><span class="en">Selected courses</span><span class="pt">Cursos selecionados</span></h2>
-      <ul class="simple">
-        <li><span class="en">Basic course on Regulations and Organisation of Clinical Trials (BROK)</span><span class="pt">Curso básico de regulamentação e organização de ensaios clínicos (BROK)</span> <span class="yr">2025</span></li>
-        <li>Epidemic Intelligence, ECDC <span class="yr">2023</span></li>
-        <li>Certification of Causes of Death in Europe, European Union <span class="yr">2023</span></li>
-        <li>Geographic Information Systems for Public Health, ISPUP <span class="yr">2022</span></li>
-        <li><span class="en">Field epidemiology: mass gatherings, INSA</span><span class="pt">Epidemiologia de campo: eventos de massas, INSA</span> <span class="yr">2022</span></li>
-        <li>Artificial Intelligence within Biomedical Engineering and Health Systems, KTH Royal Institute of Technology <span class="yr">2021</span></li>
-        <li>Data, Visualization and Connectivity for Healthcare, EIT Digital and Coventry University <span class="yr">2021</span></li>
-        <li><span class="en">Field epidemiology: outbreak investigation, INSA</span><span class="pt">Epidemiologia de campo: investigação de surtos, INSA</span> <span class="yr">2020</span></li>
-        <li><span class="en">Epidemiology and biostatistics in R (Epi-STAT), INSA</span><span class="pt">Epidemiologia e bioestatística em R (Epi-STAT), INSA</span> <span class="yr">2020</span></li>
-        <li>Young Medical Leaders Program, Católica Lisbon School of Business &amp; Economics <span class="yr">2019</span></li>
-      </ul>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
+
+<section class="page" data-page="courses" hidden>
+  <h1 class="page-title" data-nav="courses"></h1>
+  <p class="page-intro"><span class="en">Courses, workshops and symposia I have taken, from my time in public health practice in Portugal to my PhD in Groningen.</span><span class="pt">Cursos, workshops e simpósios que frequentei, da prática de saúde pública em Portugal ao doutoramento em Groningen.</span></p>
+
+  <h2 class="year-h" style="margin-top:0"><span class="en">During the PhD, 2024 to now</span><span class="pt">Durante o doutoramento, 2024 até hoje</span></h2>
+  <div class="two" id="courses-phd">
+    <div>
+      <h3 class="era"><span class="en">Courses</span><span class="pt">Cursos</span></h3>
+      <ul class="log">
+        <li><span class="when">2026</span><span class="what"><strong>Start to Supervise</strong><span><span class="en">Educational Support and Innovation, University of Groningen</span><span class="pt">Educational Support and Innovation, Universidade de Groningen</span></span></span></li>
+        <li><span class="when">2026</span><span class="what"><strong><span class="en">Understanding and using large language models during your PhD</span><span class="pt">Compreender e utilizar grandes modelos de linguagem durante o doutoramento</span></strong><span><span class="en">Graduate School of Medical Sciences, University of Groningen</span><span class="pt">Graduate School of Medical Sciences, Universidade de Groningen</span></span></span></li>
+        <li><span class="when">2025</span><span class="what"><strong><span class="en">Basic course on Regulations and Organisation of Clinical Trials (BROK)</span><span class="pt">Curso básico de regulamentação e organização de ensaios clínicos (BROK)</span></strong><span>NFU</span></span></li>
+        <li><span class="when">2025</span><span class="what"><strong><span class="en">Ethics in Research and Scientific Integrity</span><span class="pt">Ética na investigação e integridade científica</span></strong><span><span class="en">Graduate School of Medical Sciences, University of Groningen</span><span class="pt">Graduate School of Medical Sciences, Universidade de Groningen</span></span></span></li>
+        <li><span class="when">2024</span><span class="what"><strong>Design Thinking Facilitation</strong><span>DesignThinkers Academy</span></span></li>
+        <li><span class="when">2024</span><span class="what"><strong>AIProHealth Summer School</strong><span><span class="en">University Medical Center Groningen</span><span class="pt">Centro Médico Universitário de Groningen</span></span></span></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="era"><span class="en">Workshops and symposia</span><span class="pt">Workshops e simpósios</span></h3>
+      <ul class="log">
+        <li><span class="when">2024</span><span class="what"><strong>MIT Hacking Medicine Groningen</strong><span>MIT Hacking Medicine</span></span></li>
+        <li><span class="when">2024</span><span class="what"><strong>Innovation in AI for Healthcare Symposium</strong><span>Data Science Center in Health (DASH), UMCG</span></span></li>
+        <li><span class="when">2024</span><span class="what"><strong>Aletta Dive: Stronger together, technology as an ally towards a healthier life for vulnerable individuals</strong><span><span class="en">Aletta Jacobs School of Public Health and Jantina Tammes School, University of Groningen</span><span class="pt">Aletta Jacobs School of Public Health e Jantina Tammes School, Universidade de Groningen</span></span></span></li>
+        <li><span class="when">2024</span><span class="what"><strong>Responsible AI Conference</strong><span>ALLAI</span></span></li>
+        <li><span class="when">2024</span><span class="what"><strong>Let’s Hack Interdisciplinarity! Workshop</strong><span><span class="en">Jantina Tammes School, University of Groningen</span><span class="pt">Jantina Tammes School, Universidade de Groningen</span></span></span></li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 class="year-h" style="margin-top:64px"><span class="en">Before the PhD, 2019 to 2024</span><span class="pt">Antes do doutoramento, 2019 a 2024</span></h2>
+  <div class="two">
+    <div>
+      <h3 class="era"><span class="en">Courses</span><span class="pt">Cursos</span></h3>
+      <ul class="log" id="courses-before">
+        <li><span class="when">2023</span><span class="what"><strong>Epidemic Intelligence</strong><span>ECDC</span></span></li>
+        <li><span class="when">2023</span><span class="what"><strong>Certification of Causes of Death in Europe</strong><span><span class="en">European Union</span><span class="pt">União Europeia</span></span></span></li>
+        <li><span class="when">2022</span><span class="what"><strong>Geographic Information Systems for Public Health</strong><span>ISPUP</span></span></li>
+        <li><span class="when">2022</span><span class="what"><strong><span class="en">Field epidemiology: mass gatherings</span><span class="pt">Epidemiologia de campo: eventos de massas</span></strong><span>INSA</span></span></li>
+        <li><span class="when">2021</span><span class="what"><strong>Artificial Intelligence within Biomedical Engineering and Health Systems</strong><span>KTH Royal Institute of Technology</span></span></li>
+        <li><span class="when">2021</span><span class="what"><strong>Data, Visualization and Connectivity for Healthcare</strong><span><span class="en">EIT Digital and Coventry University</span><span class="pt">EIT Digital e Coventry University</span></span></span></li>
+        <li><span class="when">2020</span><span class="what"><strong><span class="en">Field epidemiology: outbreak investigation</span><span class="pt">Epidemiologia de campo: investigação de surtos</span></strong><span>INSA</span></span></li>
+        <li><span class="when">2020</span><span class="what"><strong><span class="en">Epidemiology and biostatistics in R (Epi-STAT)</span><span class="pt">Epidemiologia e bioestatística em R (Epi-STAT)</span></strong><span>INSA</span></span></li>
+        <li><span class="when">2019</span><span class="what"><strong>Young Medical Leaders Program</strong><span>Católica Lisbon School of Business &amp; Economics</span></span></li>
+      </ul>
+    </div>
+    <div></div>
+  </div>
+</section>
+
 
 <!-- ================= SERVICE ================= -->
 <section class="page" data-page="service" hidden>
@@ -798,10 +856,10 @@ function fmt(iso, monthOnly){
 }
 
 /* ---------- names ---------- */
-var order = ["home","research","publications","talks","experience","service","awards","contact"];
+var order = ["home","research","publications","talks","experience","courses","service","awards","contact"];
 var NAMES = {
   home:{en:"Home", pt:"Início"}, research:{en:"Research", pt:"Investigação"}, publications:{en:"Publications", pt:"Publicações"},
-  talks:{en:"Talks", pt:"Comunicações"}, experience:{en:"Experience", pt:"Percurso"}, service:{en:"Service", pt:"Atividades"},
+  talks:{en:"Talks", pt:"Comunicações"}, experience:{en:"Experience", pt:"Percurso"}, courses:{en:"Courses", pt:"Cursos"}, service:{en:"Service", pt:"Atividades"},
   awards:{en:"Awards", pt:"Prémios"}, contact:{en:"Contact", pt:"Contacto"}
 };
 
@@ -1085,6 +1143,8 @@ function renderCounts(){
   var nTalks = talks.length + before.reduce(function(s,g){ return s + g.items.length; }, 0);
   document.getElementById("toc-pubs").textContent = pubs.length + (LANG === "pt" ? " publicações" : " publications");
   document.getElementById("toc-talks").textContent = nTalks + (LANG === "pt" ? " comunicações" : " talks and posters");
+  var nCourses = document.querySelectorAll('[data-page="courses"] .log > li').length;
+  document.getElementById("toc-courses").textContent = nCourses + (LANG === "pt" ? " cursos e eventos" : " courses and events");
   var nRoles = document.querySelectorAll("#act-list > li").length;
   document.getElementById("toc-service").textContent = nRoles + (LANG === "pt" ? " cargos" : " roles");
   var nAw = document.querySelectorAll("#award-list li").length;
